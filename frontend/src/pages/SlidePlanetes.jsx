@@ -1,11 +1,12 @@
-import PlaneteButton from "../tools/PlaneteButton";
+import React from "react";
+import Planetes from "../tools/data";
 import "./SlidePlanetes.css";
 
 function SlidePlanetes() {
   return (
     <div>
       <div className="planete">
-        {PlaneteButton.map((planete) => {
+        {Planetes.map((planete) => {
           if (planete.isHidden === false) {
             return (
               <img
