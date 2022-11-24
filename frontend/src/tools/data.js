@@ -6,34 +6,41 @@ import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 
 const Planetes = [
   {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-
-  {
     id: 1,
     name: "dagoba",
     img: dagoba,
     isHidden: false,
   },
   {
-    id: 3,
+    id: 2,
     name: "Etoile_noire",
     img: etoilenoire,
     isHidden: false,
   },
 
   {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
+    id: 3,
+    name: "miller",
+    img: miller,
+    isHidden: false,
+  },
+
+  {
+    id: 4,
+    name: "pandora",
+    img: pandora,
+    isHidden: false,
   },
 
   {
     id: 5,
+    name: "tatooine",
+    img: tatooine,
+    isHidden: false,
+  },
+
+  {
+    id: 6,
     name: "miller",
     img: miller,
     isHidden: false,
@@ -41,21 +48,29 @@ const Planetes = [
 
   {
     id: 7,
-    name: "pandora",
-    img: pandora,
+    name: "miller",
+    img: miller,
     isHidden: false,
   },
+
   {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
+    id: 8,
+    name: "miller",
+    img: miller,
+    isHidden: false,
   },
 
   {
     id: 9,
-    name: "tatooine",
-    img: tatooine,
+    name: "miller",
+    img: miller,
+    isHidden: false,
+  },
+
+  {
+    id: 10,
+    name: "miller",
+    img: miller,
     isHidden: false,
   },
 
@@ -65,99 +80,12 @@ const Planetes = [
     img: miller,
     isHidden: false,
   },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
 
   {
-    id: 13,
+    id: 12,
     name: "miller",
     img: miller,
     isHidden: false,
-  },
-
-  {
-    id: 15,
-    name: "miller",
-    img: miller,
-    isHidden: false,
-  },
-
-  {
-    id: 17,
-    name: "miller",
-    img: miller,
-    isHidden: false,
-  },
-
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 19,
-    name: "miller",
-    img: miller,
-    isHidden: false,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 21,
-    name: "miller",
-    img: miller,
-    isHidden: false,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 23,
-    name: "miller",
-    img: miller,
-    isHidden: false,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
-  {
-    id: 0,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
   },
 ];
 
