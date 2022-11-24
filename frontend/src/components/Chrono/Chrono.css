@@ -5,16 +5,16 @@
     flex-direction: column;
     text-align: center;
     background: black;
-    padding: 2vmin;
 }
 
 .title__chrono{
-    font-size: 5vmin;
+    font-size: 6vmin;
     color: white;
+    font-family: var(--font-title);
 }
 
 .chrono{
-    font-size: 8vmin;
+    font-size: 10vmin;
     color: red;
-    margin-top: 2vmin;
+    font-family: var(--font-chrono);
 }
