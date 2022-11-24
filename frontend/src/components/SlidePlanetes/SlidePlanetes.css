@@ -1,7 +1,6 @@
 .planete {
-  position: relative;
-  top: 100vh;
-  left: 2vw;
+  position: fixed;
+  bottom: 0;
   width: 100vw;
   z-index: 1;
   animation-name: rotate;
@@ -10,14 +9,14 @@
   animation-iteration-count: infinite;
 }
 
-.titleover{
+.titleover {
   position: absolute;
   color: beige;
 }
 
-.planete:hover {
+/* .planete:hover {
   animation-iteration-count: ;
-}
+} */
 
 .btn-planete1 {
   width: 12vw;
@@ -29,77 +28,77 @@
 .btn-planete2 {
   width: 8vw;
   position: absolute;
-  top: 8vh;
-  left: 25vw;
+  top: 27vh;
+  left: 23vw;
 }
 
 .btn-planete3 {
   width: 8vw;
   position: absolute;
-  top: 30vh;
+  top: 50vh;
   left: 50vw;
 }
 
 .btn-planete4 {
   width: 8vw;
   position: absolute;
-  top: 2vh;
+  top: 27vh;
   left: 75vw;
 }
 
 .btn-planete5 {
   width: 8vw;
   position: absolute;
-  top: 45vh;
+  top: 50vh;
   left: 90vw;
 }
 
 .btn-planete6 {
   width: 8vw;
   position: absolute;
-  top: 25vh;
+  top: 27vh;
   left: 30vw;
 }
 
 .btn-planete7 {
   width: 8vw;
   position: absolute;
-  top: 40vh;
+  top: 50vh;
   left: 60vw;
 }
 
 .btn-planete8 {
   width: 8vw;
   position: absolute;
-  top: 10vh;
+  top: 27vh;
   left: 80vw;
 }
 
 .btn-planete9 {
   width: 8vw;
   position: absolute;
-  top: 30vh;
+  top: 50vh;
   left: 65vw;
 }
 
 .btn-planete10 {
   width: 8vw;
   position: absolute;
-  top: 15vh;
+  top: 27vh;
   left: 30vw;
 }
 
 .btn-planete11 {
   width: 8vw;
   position: absolute;
-  top: 20vh;
+  top: 50vh;
   left: 50vw;
 }
 
 .btn-planete12 {
   width: 8vw;
   position: absolute;
-  top: 50vh;
+  top: 27vh;
   left: 20vw;
 }
 
