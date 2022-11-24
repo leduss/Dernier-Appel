@@ -10,7 +10,6 @@ function SlidePlanetes() {
           <PlanetesItem planete={planete} />
         </li>
       ))}
-      ;
     </ul>
   );
 }

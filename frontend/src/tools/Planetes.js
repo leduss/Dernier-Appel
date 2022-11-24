@@ -13,7 +13,7 @@ const Planetes = [
   },
   {
     id: 2,
-    planetName: "Etoile_noire",
+    planetName: "Etoile noire",
     img: etoilenoire,
     isHidden: false,
   },
