@@ -1,5 +1,5 @@
 import React from "react";
-import Planetes from "../tools/data";
+import Planetes from "../tools/Planetes";
 import "./SlidePlanetes.css";
 
 function SlidePlanetes() {

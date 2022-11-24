@@ -24,3 +24,7 @@
   --font-paragraphe: AlegreyaSans-Regular;
   --font-title: BigShouldersDisplay-VariableFont_wght;
 }
+
+.App{
+  background: white;
+}

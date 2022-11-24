@@ -1,0 +1,38 @@
+.img__navbar{
+    width: 6vmin;
+}
+
+.nav{
+    margin-left: 2vmin;
+}
+
+.container__navbar{
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.navbar__link{
+    list-style-type: none;
+    width: 30vmin;
+    height: 82vh;
+    background: black;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 1vmin;
+}
+
+.container__title{
+    color: white;
+    font-family: var(--font-title);
+}
+
+.container__navbar{
+    opacity: 0.6;
+}
+
+.container__navbar:hover{
+    opacity: 1;
+}
+
+

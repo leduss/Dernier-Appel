@@ -1,12 +1,12 @@
-import SlidePlanetes from "./pages/SlidePlanetes";
 import Chrono from "./components/Chrono/Chrono";
 import "./App.css";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
-      <SlidePlanetes />
       <Chrono />
+      <Nav />
     </div>
   );
 }

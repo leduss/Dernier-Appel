@@ -1,6 +1,6 @@
 .container__chrono {
   border: 2px solid black;
-  width: auto;
+  width: 70vmin;
   display: flex;
   flex-direction: column;
   text-align: center;
