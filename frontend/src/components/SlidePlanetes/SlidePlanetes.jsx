@@ -1,5 +1,5 @@
 import React from "react";
-import Planetes from "../tools/data";
+import Planetes from "../../tools/data";
 import "./SlidePlanetes.css";
 
 function SlidePlanetes() {
@@ -11,6 +11,8 @@ function SlidePlanetes() {
             return (
               <img
                 className="btn-planete"
+                // onClick=
+                id={planete.id}
                 src={planete.img}
                 alt={planete.name}
                 onKeyDown=""
