@@ -5,49 +5,48 @@
   display: flex;
   justify-content: space-around;
   width: 400vw;
-  translate: ('360');
+  translate: ("360");
   overflow-x: auto;
   height: 70vmin;
   margin-left: 22vmin;
 }
 
-.container__planet{
+.container__planet {
   height: 100%;
 }
 
 .planeteItem:nth-child(1) {
   margin-top: 30vmin;
 }
-.planeteItem:nth-child(2){
+.planeteItem:nth-child(2) {
   margin-top: 10vmin;
 }
-.planeteItem:nth-child(3){
+.planeteItem:nth-child(3) {
   margin-top: 16vmin;
 }
 
-.planeteItem:nth-child(5){
+.planeteItem:nth-child(5) {
   margin-top: 30vmin;
 }
-.planeteItem:nth-child(6){
+.planeteItem:nth-child(6) {
   margin-top: 15vmin;
 }
-.planeteItem:nth-child(7){
+.planeteItem:nth-child(7) {
   margin-top: 20vmin;
 }
 
-.planeteItem:nth-child(9){
+.planeteItem:nth-child(9) {
   margin-top: 10vmin;
 }
-.planeteItem:nth-child(10){
+.planeteItem:nth-child(10) {
   margin-top: 20vmin;
 }
-.planeteItem:nth-child(11){
+.planeteItem:nth-child(11) {
   margin-top: 30vmin;
 }
-.planeteItem:nth-child(12){
+.planeteItem:nth-child(12) {
   margin-top: 10vmin;
 }
-
 
 .planeteItem:nth-child(1) img {
   width: 30vmin;
@@ -86,12 +85,8 @@
   width: 20vmin;
 }
 
-
-
-.titleover{
+.titleover {
   color: white;
   text-align: center;
   font-size: 3.5vmin;
 }
-
-

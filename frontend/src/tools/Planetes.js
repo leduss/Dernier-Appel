@@ -11,8 +11,8 @@ import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 import Tusken from "../assets/img/planetes/Tatooine/Tusken.png";
 import lv426Paysage01 from "../assets/img/planetes/LV426/lv426Paysage01.png";
 import alien01 from "../assets/img/planetes/LV426/alien_01.png";
-import yautja from "../assets/img/planetes/yautja/Yautja.png";
-import predator from "../assets/img/planetes/yautja/predator.png";
+// import yautja from "../assets/img/planetes/yautja/Yautja.png";
+// import predator from "../assets/img/planetes/yautja/predator.png";
 
 const Planetes = [
   {

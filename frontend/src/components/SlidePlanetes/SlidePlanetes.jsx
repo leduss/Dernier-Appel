@@ -1,4 +1,4 @@
-import Planetes from "/src/tools/Planetes";
+import Planetes from "../../tools/Planetes";
 import PlanetesItem from "./PlanetesItem";
 import "./SlidePlanetes.css";
 
