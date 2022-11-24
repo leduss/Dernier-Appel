@@ -1,0 +1,14 @@
+.planete {
+  position: absolute;
+  top: 6vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 150vw;
+  height: 100vh;
+  gap: 0.5vh;
+  z-index: 1;
+}
+.btn-planete{
+  width: 10vw;
+  height: auto;
+}

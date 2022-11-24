@@ -1,10 +1,10 @@
-
+import SlidePlanetes from "./pages/SlidePlanetes";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>coucou</p>
+      <SlidePlanetes />
     </div>
   );
 }
