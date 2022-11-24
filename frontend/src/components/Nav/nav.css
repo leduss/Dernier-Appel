@@ -4,14 +4,12 @@
 
 .nav {
   margin-left: 2vmin;
-
 }
 
 .container__navbar {
   display: flex;
   align-items: center;
   gap: 2vmin;
-  
 }
 
 .navbar__link {
@@ -21,7 +19,7 @@
   position: fixed;
   bottom: 0;
   padding-bottom: 1vmin;
-  z-index: 20;
+  z-index: 22;
 }
 
 .container__title {
