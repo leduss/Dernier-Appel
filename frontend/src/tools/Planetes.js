@@ -7,83 +7,83 @@ import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 const Planetes = [
   {
     id: 1,
-    name: "dagoba",
+    planetName: "Dagoba",
     img: dagoba,
     isHidden: false,
   },
   {
     id: 2,
-    name: "Etoile_noire",
+    planetName: "Etoile_noire",
     img: etoilenoire,
     isHidden: false,
   },
 
   {
     id: 3,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 4,
-    name: "pandora",
+    planetName: "pandora",
     img: pandora,
     isHidden: false,
   },
 
   {
     id: 5,
-    name: "tatooine",
+    planetName: "tatooine",
     img: tatooine,
     isHidden: false,
   },
 
   {
     id: 6,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 7,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 8,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 9,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 10,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 11,
-    name: "miller",
+    planetName: "Miller",
     img: miller,
     isHidden: false,
   },
 
   {
     id: 12,
-    name: "miller",
+    planetName: "miller",
     img: miller,
     isHidden: false,
   },

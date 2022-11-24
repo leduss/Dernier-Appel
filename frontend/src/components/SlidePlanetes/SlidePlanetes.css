@@ -1,4 +1,3 @@
-
 .planete {
   position: relative;
   top: 100vh;
@@ -9,22 +8,22 @@
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  
-  
 }
 
-.planete:hover{
+.titleover{
+  position: absolute;
+  color: beige;
+}
+
+.planete:hover {
   animation-iteration-count: ;
 }
-
-
 
 .btn-planete1 {
   width: 12vw;
   position: absolute;
   top: 50vh;
   left: 8vw;
- 
 }
 
 .btn-planete2 {
@@ -105,6 +104,10 @@
 }
 
 @keyframes rotate {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
