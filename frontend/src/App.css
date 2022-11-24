@@ -29,6 +29,6 @@ ul {
   --font-title: BigShouldersDisplay-VariableFont_wght;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */

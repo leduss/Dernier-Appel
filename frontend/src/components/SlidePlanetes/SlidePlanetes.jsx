@@ -6,11 +6,10 @@ function SlidePlanetes() {
   return (
     <ul className="planete">
       {Planetes.map((planete) => (
-        <li className="planeteItem" key={planete.id}>
+        <li className="planeteItem">
           <PlanetesItem planete={planete} />
         </li>
       ))}
-      ;
     </ul>
   );
 }

@@ -1,112 +1,23 @@
 .planete {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
+  position: absolute;
+  bottom: 32vh;
   z-index: 1;
-  animation-name: rotate;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  display: flex;
+  justify-content: space-around;
+  width: 300vw;
+  translate: ('360');
+  overflow-x: auto;
+  height: 55vmin;
 }
 
-.titleover {
-  position: absolute;
-  color: beige;
+
+
+
+.container__planet{
+  height: 100%;
 }
 
-/* .planete:hover {
-  animation-iteration-count: ;
-} */
-
-.btn-planete1 {
-  width: 12vw;
-  position: absolute;
-  top: 50vh;
-  left: 8vw;
+.container__planet img{
+  width: 20vmin;
 }
 
-.btn-planete2 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 23vw;
-}
-
-.btn-planete3 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-}
-
-.btn-planete4 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 75vw;
-}
-
-.btn-planete5 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 90vw;
-}
-
-.btn-planete6 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 30vw;
-}
-
-.btn-planete7 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 60vw;
-}
-
-.btn-planete8 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 80vw;
-}
-
-.btn-planete9 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 65vw;
-}
-
-.btn-planete10 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 30vw;
-}
-
-.btn-planete11 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-}
-
-.btn-planete12 {
-  width: 8vw;
-  position: absolute;
-  top: 27vh;
-  left: 20vw;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

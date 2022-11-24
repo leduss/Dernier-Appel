@@ -9,19 +9,17 @@ function PlanetesItem({ planete }) {
   };
 
   return (
-    <div>
-      {show ? <div className="titleover">{planete.planetName}</div> : null}
-
+    <div className="container__planet">
       <img
-        className={`btn-planete${planete.id}`}
+        className="btn-planete"
         onMouseEnter={handleMouseEnter}
-        // onClick=
         id={planete.id}
         src={planete.img}
         alt={planete.planetName}
         onKeyDown=""
         role="presentation"
       />
+      {show ? <div className="planeteover">{planete.planetName}</div> : null}
     </div>
   );
 }
