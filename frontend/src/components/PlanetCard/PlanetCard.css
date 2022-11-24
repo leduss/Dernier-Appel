@@ -1,0 +1,10 @@
+.pokemon__detail__stats__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pokemon__detail__stats__container img {
+  width: 10%;
+}
