@@ -1,113 +1,97 @@
 .planete {
-  position: relative;
-  top: 100vh;
-  left: 2vw;
-  width: 100vw;
+  position: absolute;
+  bottom: 15vh;
   z-index: 1;
-  animation-name: rotate;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  display: flex;
+  justify-content: space-around;
+  width: 400vw;
+  translate: ('360');
+  overflow-x: auto;
+  height: 70vmin;
+  margin-left: 22vmin;
 }
+
+.container__planet{
+  height: 100%;
+}
+
+.planeteItem:nth-child(1) {
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(2){
+  margin-top: 10vmin;
+}
+.planeteItem:nth-child(3){
+  margin-top: 16vmin;
+}
+
+.planeteItem:nth-child(5){
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(6){
+  margin-top: 15vmin;
+}
+.planeteItem:nth-child(7){
+  margin-top: 20vmin;
+}
+
+.planeteItem:nth-child(9){
+  margin-top: 10vmin;
+}
+.planeteItem:nth-child(10){
+  margin-top: 20vmin;
+}
+.planeteItem:nth-child(11){
+  margin-top: 30vmin;
+}
+.planeteItem:nth-child(12){
+  margin-top: 10vmin;
+}
+
+
+.planeteItem:nth-child(1) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(2) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(3) img {
+  width: 35vmin;
+}
+.planeteItem:nth-child(4) img {
+  width: 32vmin;
+}
+.planeteItem:nth-child(5) img {
+  width: 18vmin;
+}
+.planeteItem:nth-child(6) img {
+  width: 30vmin;
+}
+.planeteItem:nth-child(7) img {
+  width: 20vmin;
+}
+.planeteItem:nth-child(8) img {
+  width: 25vmin;
+}
+.planeteItem:nth-child(9) img {
+  width: 35vmin;
+}
+.planeteItem:nth-child(10) img {
+  width: 18vmin;
+}
+.planeteItem:nth-child(11) img {
+  width: 25vmin;
+}
+.planeteItem:nth-child(12) img {
+  width: 20vmin;
+}
+
+
 
 .titleover{
-  position: absolute;
-  color: beige;
+  color: white;
+  text-align: center;
+  font-size: 3.5vmin;
 }
 
-.planete:hover {
-  animation-iteration-count: ;
-}
 
-.btn-planete1 {
-  width: 12vw;
-  position: absolute;
-  top: 50vh;
-  left: 8vw;
-}
-
-.btn-planete2 {
-  width: 8vw;
-  position: absolute;
-  top: 8vh;
-  left: 25vw;
-}
-
-.btn-planete3 {
-  width: 8vw;
-  position: absolute;
-  top: 30vh;
-  left: 50vw;
-}
-
-.btn-planete4 {
-  width: 8vw;
-  position: absolute;
-  top: 2vh;
-  left: 75vw;
-}
-
-.btn-planete5 {
-  width: 8vw;
-  position: absolute;
-  top: 45vh;
-  left: 90vw;
-}
-
-.btn-planete6 {
-  width: 8vw;
-  position: absolute;
-  top: 25vh;
-  left: 30vw;
-}
-
-.btn-planete7 {
-  width: 8vw;
-  position: absolute;
-  top: 40vh;
-  left: 60vw;
-}
-
-.btn-planete8 {
-  width: 8vw;
-  position: absolute;
-  top: 10vh;
-  left: 80vw;
-}
-
-.btn-planete9 {
-  width: 8vw;
-  position: absolute;
-  top: 30vh;
-  left: 65vw;
-}
-
-.btn-planete10 {
-  width: 8vw;
-  position: absolute;
-  top: 15vh;
-  left: 30vw;
-}
-
-.btn-planete11 {
-  width: 8vw;
-  position: absolute;
-  top: 20vh;
-  left: 50vw;
-}
-
-.btn-planete12 {
-  width: 8vw;
-  position: absolute;
-  top: 50vh;
-  left: 20vw;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

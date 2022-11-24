@@ -1,6 +1,6 @@
 import dagoba from "../assets/img/planetes/dagoba/dagoba_planete.png";
-import dagobahPays01 from "../assets/img/planetes/dagoba/dagoba_pic2.png";
-import dagobahPays02 from "../assets/img/planetes/dagoba/dagoba_pic4.png";
+import dagobahPays01 from "../assets/img/planetes/dagoba/dagoba_pic2.jpeg";
+import dagobahPays02 from "../assets/img/planetes/dagoba/dagoba_pic4.jpeg";
 import grogu from "../assets/img/planetes/dagoba/grogu.png";
 import etoilenoire from "../assets/img/planetes/Etoile_noire/etoile_noire_planete.png";
 import stormt from "../assets/img/planetes/Etoile_noire/stormt.png";
@@ -10,7 +10,7 @@ import avatars from "../assets/img/planetes/Pandora/avatars.png";
 import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 import Tusken from "../assets/img/planetes/Tatooine/Tusken.png";
 import lv426Paysage01 from "../assets/img/planetes/LV426/lv426Paysage01.png";
-import alien_01 from "../assets/img/planetes/LV426/alien_01.png";
+import alien01 from "../assets/img/planetes/LV426/alien_01.png";
 import yautja from "../assets/img/planetes/yautja/Yautja.png";
 import predator from "../assets/img/planetes/yautja/predator.png";
 
@@ -112,11 +112,11 @@ const Planetes = [
   {
     id: 6,
     planetName: "LV-426",
-    img: "",
+    img: miller,
     isHidden: false,
     darkFriday: true,
     soldOut: false,
-    perso: alien_01,
+    perso: alien01,
     photo01: lv426Paysage01,
     photo02: "",
     stat: [
