@@ -33,7 +33,7 @@ function Chrono() {
     <div className="container__chrono">
       <h1 className="title__chrono">Le temps vous est compté</h1>
       <h2 className="chrono">
-        {hours < 10 ? hours : hours} : {minutes < 10 ? minutes : minutes} :{" "}
+        {hours < 10 ? hours : hours}:{minutes < 10 ? minutes : minutes}:
         {seconds < 10 ? seconds : seconds}
       </h2>
     </div>
