@@ -1,0 +1,110 @@
+
+.planete {
+  position: relative;
+  top: 75vh;
+  left: 2vw;
+  width: 100vw;
+  z-index: 1;
+  animation-name: rotate;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+  
+}
+
+.planete:hover{
+  animation-iteration-count: ;
+}
+
+
+
+.btn-planete1 {
+  width: 12vw;
+  position: absolute;
+  top: 50vh;
+  left: 8vw;
+ 
+}
+
+.btn-planete2 {
+  width: 8vw;
+  position: absolute;
+  top: 8vh;
+  left: 25vw;
+}
+
+.btn-planete3 {
+  width: 8vw;
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+}
+
+.btn-planete4 {
+  width: 8vw;
+  position: absolute;
+  top: 2vh;
+  left: 75vw;
+}
+
+.btn-planete5 {
+  width: 8vw;
+  position: absolute;
+  top: 45vh;
+  left: 90vw;
+}
+
+.btn-planete6 {
+  width: 8vw;
+  position: absolute;
+  top: 25vh;
+  left: 30vw;
+}
+
+.btn-planete7 {
+  width: 8vw;
+  position: absolute;
+  top: 40vh;
+  left: 60vw;
+}
+
+.btn-planete8 {
+  width: 8vw;
+  position: absolute;
+  top: 10vh;
+  left: 80vw;
+}
+
+.btn-planete9 {
+  width: 8vw;
+  position: absolute;
+  top: 30vh;
+  left: 65vw;
+}
+
+.btn-planete10 {
+  width: 8vw;
+  position: absolute;
+  top: 15vh;
+  left: 30vw;
+}
+
+.btn-planete11 {
+  width: 8vw;
+  position: absolute;
+  top: 20vh;
+  left: 50vw;
+}
+
+.btn-planete12 {
+  width: 8vw;
+  position: absolute;
+  top: 50vh;
+  left: 20vw;
+}
+
+@keyframes rotate {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
