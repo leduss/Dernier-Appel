@@ -1,0 +1,58 @@
+/* $finalHeight: 250px;
+$finalWidth: 3 * $finalHeight;
+$scrollBarHeight: 1px;
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 250px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: calc(250 + #{$scrollBarHeight});
+  max-height: $finalWidth;
+  margin: 0;
+  padding-top: $scrollBarHeight;
+  background: #abc;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform-origin: right top;
+  & > div {
+    display: block;
+    padding: 5px;
+    background: #cab;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+} */
+
+
+
+.planete {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  width: 100%;
+  column-gap: 1vh;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15vw;
+  grid-row-gap: 0px;
+}
+
+
+.btn-planete {
+  width: 8vw;
+}

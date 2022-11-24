@@ -6,16 +6,17 @@ import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 
 const Planetes = [
   {
+    id: 0,
+    name: "",
+    img: "../assets/planete.png",
+    isHidden: true,
+  },
+
+  {
     id: 1,
     name: "dagoba",
     img: dagoba,
     isHidden: false,
-  },
-  {
-    id: 2,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
   },
   {
     id: 3,
@@ -23,24 +24,23 @@ const Planetes = [
     img: etoilenoire,
     isHidden: false,
   },
+
   {
-    id: 4,
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
   },
+
+
   {
     id: 5,
     name: "miller",
     img: miller,
     isHidden: false,
   },
-  {
-    id: 6,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
+
+
   {
     id: 7,
     name: "pandora",
@@ -48,23 +48,20 @@ const Planetes = [
     isHidden: false,
   },
   {
-    id: 8,
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
   },
+
+ 
   {
     id: 9,
     name: "tatooine",
     img: tatooine,
     isHidden: false,
   },
-  {
-    id: 10,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
+
   {
     id: 11,
     name: "miller",
@@ -72,43 +69,41 @@ const Planetes = [
     isHidden: false,
   },
   {
-    id: 12,
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
   },
+
   {
     id: 13,
     name: "miller",
     img: miller,
     isHidden: false,
   },
-  {
-    id: 14,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
+
   {
     id: 15,
     name: "miller",
     img: miller,
     isHidden: false,
   },
-  {
-    id: 16,
-    name: "",
-    img: "../assets/planete.png",
-    isHidden: true,
-  },
+
   {
     id: 17,
     name: "miller",
     img: miller,
     isHidden: false,
   },
+
   {
-    id: 18,
+    id: 0,
+    name: "",
+    img: "../assets/planete.png",
+    isHidden: true,
+  },
+  {
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
@@ -120,7 +115,13 @@ const Planetes = [
     isHidden: false,
   },
   {
-    id: 20,
+    id: 0,
+    name: "",
+    img: "../assets/planete.png",
+    isHidden: true,
+  },
+  {
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
@@ -132,7 +133,13 @@ const Planetes = [
     isHidden: false,
   },
   {
-    id: 22,
+    id: 0,
+    name: "",
+    img: "../assets/planete.png",
+    isHidden: true,
+  },
+  {
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,
@@ -144,7 +151,13 @@ const Planetes = [
     isHidden: false,
   },
   {
-    id: 24,
+    id: 0,
+    name: "",
+    img: "../assets/planete.png",
+    isHidden: true,
+  },
+  {
+    id: 0,
     name: "",
     img: "../assets/planete.png",
     isHidden: true,

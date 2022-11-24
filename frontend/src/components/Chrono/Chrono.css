@@ -1,10 +1,12 @@
 .container__chrono {
-  border: 2px solid black;
   width: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: black;
+  position: absolute;
+  top: 2vh;
+  left: 35vw;
+  position: fixed;
 }
 
 .title__chrono {
