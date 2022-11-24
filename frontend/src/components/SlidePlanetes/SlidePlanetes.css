@@ -36,8 +36,6 @@ $scrollBarHeight: 1px;
   }
 } */
 
-
-
 .planete {
   position: absolute;
   top: 30vh;
@@ -51,7 +49,6 @@ $scrollBarHeight: 1px;
   grid-column-gap: 15vw;
   grid-row-gap: 0px;
 }
-
 
 .btn-planete {
   width: 8vw;

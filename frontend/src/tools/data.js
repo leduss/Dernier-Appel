@@ -32,14 +32,12 @@ const Planetes = [
     isHidden: true,
   },
 
-
   {
     id: 5,
     name: "miller",
     img: miller,
     isHidden: false,
   },
-
 
   {
     id: 7,
@@ -54,7 +52,6 @@ const Planetes = [
     isHidden: true,
   },
 
- 
   {
     id: 9,
     name: "tatooine",

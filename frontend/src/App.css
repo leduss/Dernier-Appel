@@ -13,7 +13,6 @@
   src: url(./assets/fonts/titres/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -25,5 +24,3 @@
   --font-paragraphe: AlegreyaSans-Regular;
   --font-title: BigShouldersDisplay-VariableFont_wght;
 }
-
-

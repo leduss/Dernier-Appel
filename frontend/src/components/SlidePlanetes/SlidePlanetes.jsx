@@ -12,6 +12,7 @@ function SlidePlanetes() {
               <img
                 className="btn-planete"
                 // onClick=
+                id={planete.id}
                 src={planete.img}
                 alt={planete.name}
                 onKeyDown=""

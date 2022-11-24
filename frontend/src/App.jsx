@@ -1,14 +1,15 @@
-import SlidePlanetes from "./components/SlidePlanetes/SlidePlanetes";
+import { BrowserRouter as Router } from "react-router-dom";
 import Chrono from "./components/Chrono/Chrono";
+import Transition from "./Transition";
 import "./App.css";
-import Bgvideohome from "./components/Bgvideo/BgvideoHome";
 
 function App() {
   return (
     <div className="App">
-      <Bgvideohome />
-      <SlidePlanetes />
-      <Chrono />
+      <Router>
+        <Chrono />
+        <Transition />
+      </Router>
     </div>
   );
 }
