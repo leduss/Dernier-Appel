@@ -26,15 +26,15 @@ function PlanetStat({ name, category, level }) {
   }, [category]);
 
   return (
-    <div className="pokemon__stats__details">
+    <div className="planet__stats__details">
       <p>{name}</p>
-      <div className="pokemon__stats__details__outter">
+      <div className="planet__stats__details__outter">
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${level}%` }}
           exit={{ width: 0 }}
           transition={{ duration: 1 }}
-          className="pokemon__stats__details__inner"
+          className="planet__stats__details__inner"
           style={{
             width: `${level}%`,
             backgroundColor,

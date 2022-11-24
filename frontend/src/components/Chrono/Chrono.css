@@ -1,20 +1,22 @@
 .container__chrono {
-  border: 2px solid black;
-  width: auto;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: black;
+  position: absolute;
+  top: 83vh;
+  left: 78vw;
+  position: fixed;
 }
 
 .title__chrono {
-  font-size: 6vmin;
+  font-size: 4vmin;
   color: white;
   font-family: var(--font-title);
 }
 
 .chrono {
-  font-size: 10vmin;
+  font-size: 6vmin;
   color: red;
   font-family: var(--font-chrono);
 }

@@ -1,21 +1,21 @@
-.pokemon__stats__details {
-  width: 80%;
+.planet__stats__details {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.pokemon__stats__details__outter {
+.planet__stats__details__outter {
   height: 2vh;
-  width: 70%;
+  width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   border-radius: 16px;
   position: relative;
 }
 
-.pokemon__stats__details__outter span {
+.planet__stats__details__outter span {
   position: absolute;
   font-weight: 600;
   top: 50%;
@@ -23,7 +23,7 @@
   transform: translate(-50%, -50%);
 }
 
-.pokemon__stats__details__inner {
+.planet__stats__details__inner {
   height: 2vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(255, 255, 255, 0.8) 0px 18px 36px -18px inset;

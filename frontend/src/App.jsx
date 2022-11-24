@@ -1,15 +1,17 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Chrono from "./components/Chrono/Chrono";
+import Transition from "./Transition";
 import "./App.css";
-// eslint-disable-next-line import/no-unresolved
-import Chrono from "@components/Chrono";
-// eslint-disable-next-line import/no-unresolved
-import PlanetCard from "@components/PlanetCard/PlanetCard";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
-      <p>coucou</p>
-      <Chrono />
-      <PlanetCard />
+      <Router>
+        <Chrono />
+        <Transition />
+        <Nav />
+      </Router>
     </div>
   );
 }

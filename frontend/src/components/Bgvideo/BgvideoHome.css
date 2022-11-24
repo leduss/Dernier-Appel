@@ -1,0 +1,10 @@
+.Bgvideo {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+#bgVideo {
+  width: 100vw;
+  height: auto;
+}
