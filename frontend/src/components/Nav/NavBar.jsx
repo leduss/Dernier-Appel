@@ -14,8 +14,7 @@ function NavBar({ navigation }) {
 }
 
 NavBar.propTypes = {
-  planetName: PropTypes.func.isRequired,
-  img: PropTypes.func.isRequired,
+  navigation: PropTypes.func.isRequired,
 };
 
 export default NavBar;
