@@ -4,7 +4,7 @@ import Error from "./Error";
 import Home from "./Home";
 import PlanetsDetails from "./components/PlanetsDetails/PlanetsDetails";
 
-const Transition = () => {
+function Transition() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -12,6 +12,6 @@ const Transition = () => {
       <Route path="*" element={<Error />} />
     </Routes>
   );
-};
+}
 
 export default Transition;

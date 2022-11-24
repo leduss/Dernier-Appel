@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Error = () => {
+function Error() {
   return (
     <div>
       <h1>404 MotherFUcker</h1>
@@ -10,6 +10,6 @@ const Error = () => {
       </Link>
     </div>
   );
-};
+}
 
 export default Error;

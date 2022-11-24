@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
-const PlanetsDetails = () => {
+function PlanetsDetails() {
   const { name } = useParams();
 
   return (
@@ -12,6 +12,6 @@ const PlanetsDetails = () => {
       </Link>
     </div>
   );
-};
+}
 
 export default PlanetsDetails;
