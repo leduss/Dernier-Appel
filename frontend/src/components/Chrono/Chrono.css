@@ -1,0 +1,20 @@
+.container__chrono{
+    border: 2px solid black;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: black;
+    padding: 2vmin;
+}
+
+.title__chrono{
+    font-size: 5vmin;
+    color: white;
+}
+
+.chrono{
+    font-size: 8vmin;
+    color: red;
+    margin-top: 2vmin;
+}
