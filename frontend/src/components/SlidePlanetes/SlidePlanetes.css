@@ -4,7 +4,7 @@
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  width: 300vw;
+  width: 400vw;
   translate: ('360');
   overflow-x: auto;
   height: 70vmin;
@@ -22,7 +22,7 @@
   margin-top: 10vmin;
 }
 .planeteItem:nth-child(3){
-  margin-top: 20vmin;
+  margin-top: 16vmin;
 }
 
 .planeteItem:nth-child(5){
@@ -42,7 +42,7 @@
   margin-top: 20vmin;
 }
 .planeteItem:nth-child(11){
-  margin-top: 40vmin;
+  margin-top: 30vmin;
 }
 .planeteItem:nth-child(12){
   margin-top: 10vmin;
@@ -50,45 +50,43 @@
 
 
 .planeteItem:nth-child(1) img {
-  width: 28vmin;
+  width: 30vmin;
 }
 .planeteItem:nth-child(2) img {
-  width: 18vmin;
+  width: 30vmin;
 }
 .planeteItem:nth-child(3) img {
-  width: 18vmin;
+  width: 35vmin;
 }
 .planeteItem:nth-child(4) img {
-  width: 18vmin;
+  width: 32vmin;
 }
 .planeteItem:nth-child(5) img {
   width: 18vmin;
 }
 .planeteItem:nth-child(6) img {
-  width: 18vmin;
+  width: 30vmin;
 }
 .planeteItem:nth-child(7) img {
-  width: 18vmin;
+  width: 20vmin;
 }
 .planeteItem:nth-child(8) img {
-  width: 18vmin;
+  width: 25vmin;
 }
 .planeteItem:nth-child(9) img {
-  width: 18vmin;
+  width: 35vmin;
 }
 .planeteItem:nth-child(10) img {
   width: 18vmin;
 }
 .planeteItem:nth-child(11) img {
-  width: 18vmin;
+  width: 25vmin;
 }
 .planeteItem:nth-child(12) img {
-  width: 18vmin;
-}
-
-.container__planet img{
   width: 20vmin;
 }
+
+
 
 .titleover{
   color: white;
