@@ -1,10 +1,10 @@
-
+import Chrono from "./components/Chrono/Chrono";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>coucou</p>
+      <Chrono />
     </div>
   );
 }
