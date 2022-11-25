@@ -33,9 +33,6 @@ function PlanetCard({ selectedPlanet, showPlanet, priceLevel }) {
         </p>
       </div>
       <div className="go">
-        <img src={bouton} alt="Allons-Y" />
-      </div>
-      <div className="go">
         <img src={bouton} alt="Allons-y" />
       </div>
     </div>
