@@ -9,19 +9,19 @@ function PlanetStat({ category, level }) {
   useEffect(() => {
     switch (category) {
       case "Places restantes":
-        setBackgroundColor("red");
+        setBackgroundColor("#218721");
         break;
       case "Danger":
-        setBackgroundColor("green");
+        setBackgroundColor("#9f1010");
         break;
       case "Temps de résistance à l'homme":
-        setBackgroundColor("yellow");
+        setBackgroundColor("#005200");
         break;
       case "Habitabilité - Confort":
-        setBackgroundColor("orange");
+        setBackgroundColor("#0131b4");
         break;
       default:
-        setBackgroundColor("red");
+        setBackgroundColor("#fe8306");
     }
   }, [category]);
 
