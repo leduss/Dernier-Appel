@@ -8,15 +8,17 @@ z-index: -10;
 
 .ConteneurDetails{
   width: 100vw;
+  height: 100%;
 }
 
 
 .sidePlanet {
   position: fixed;
-  top:8vh;
-  left: -25vw;
-  width: 40vw;
+  left: -40%;
+  height: 60vw;
+  border: solid 2px white;
 }
+
 
 .autochtone {
   position: fixed;
