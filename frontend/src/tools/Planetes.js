@@ -116,7 +116,7 @@ const Planetes = [
     perso: avatars,
     photo01: pandoraPays01,
     photo02: pandoraPays02,
-    price: "",
+    price: 111111,
     stat: [
       { category: "Places restantes", level: 0 },
       { category: "Danger", level: 50 },
@@ -171,7 +171,7 @@ const Planetes = [
     planetName: "Fallen",
     img: plan01,
     isHidden: false,
-    darkFriday: true,
+    darkFriday: "Dark Friday",
     soldOut: false,
     perso: plan01Perso,
     photo01: plan01Pays01,
@@ -196,7 +196,7 @@ const Planetes = [
     perso: plan02Perso,
     photo01: plan02Pays01,
     photo02: plan02Pays02,
-    price: 30000,
+    price: "soldout",
     stat: [
       { category: "Places restantes", level: 0 },
       { category: "Danger", level: 2 },
