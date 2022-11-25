@@ -9,6 +9,7 @@ import stormt from "../assets/img/planetes/Etoile_noire/stormt.png";
 import miller from "../assets/img/planetes/miller/miller_planete.png";
 import millerPays01 from "../assets/img/planetes/miller/miller_pic1.jpeg";
 import millerPays02 from "../assets/img/planetes/miller/miller_pic3.webp";
+import millerPerso from "../assets/img/planetes/miller/miller_perso.png";
 import pandora from "../assets/img/planetes/Pandora/pandora_planete.png";
 import pandoraPays01 from "../assets/img/planetes/Pandora/pandora_pic2.jpg";
 import pandoraPays02 from "../assets/img/planetes/Pandora/pandora_pic5.jpeg";
@@ -48,7 +49,7 @@ import alien01 from "../assets/img/planetes/LV426/alien_01.png";
 
 const Planetes = [
   {
-    id: 5,
+    id: 1,
     planetName: "Tatooine",
     img: tatooine,
     isHidden: false,
@@ -67,7 +68,7 @@ const Planetes = [
     txt: "Climat et relief : La planète était autrefois recouverte d’eau. De nos jours le climat est très sec, la journée la température peut atteindre les 65ºC tandis que les soirées sont très fraîches, avoisinant les 0ºC. Les tempêtes de sables sont fréquentes et l’eau est rare ce qui oblige l’exploitation de fermes hydroponiques. Ces fermes consistent à extraire l’humidité de l’atmosphère (comme Owen Lars et sa femme Beru). Tatooine est parsemée de déserts et de canyons où vivent les hommes des sables (Tusken) et le Jawas. Les plus célèbres sont : La Mer de dune, où vivait Maître Kenobi, la Fosse de Carkoon où se trouve le Sarlacc, le Jundland, qui est un désert rocailleux au bord de la mer de dune, la voie de Xelric (canyon profond près de Mochot), Mochot Steep, (formation rocheuse chère aux jawas), la Passe d'Arnthout (une route à travers le désert de Jundland), Bildor's et Beggar's Canyon (composé de Dead Man's Turn, de Diablo's cut et de Eye of the Needle, il s'agit de plusieurs canyons où beaucoup testent leur habileté à piloter un Skyhopper), Desolation Canyon, Ja-mero Ridge, Metta Drop, les Gorges de Jag Crag et Mospic High Range (barrière rocheuse près de Mos Espa). Les villes et les mœurs : Tatooine compte quelques grandes villes, même si la planète reste que très peu peuplée à cause de son climat. Les villes sont les centres de repaire des malfrats en tout genre : chasseurs de primes, contrebandiers et autre... Mos Esley est très réputé pour sa Cantina (Cantina de Chalmun). On trouve aussi pas mal d’animation sur Mos Espa et Bestine. Les habitants ont été habitués aux courses de Pod (plus tard interdites par l’empire elles seront remplacées par des combats sur véhicules « le Démolition ») Anchorhead, Fort Tusken et Motesta ont joué un rôle dans l’histoire de la planète. Histoire de Tatooine : Les premiers habitants de Tatooine furent des pirates et des contrebandiers (environs en -5000). 800 ans plus tard (-4200) des mineurs débarquèrent et fondèrent Ancheread, mais les mines s’épuisèrent et la planète tomba à l’abandon. En -700 les moines B’Omarr établissent un temple, celui-ci deviendra par la suite le palais de Jabba le Hutt. 100 ans BY les premières fermes hydroponiques se construisirent sur Tatooine. Les Jawas nomment à la planète : Tah Doo Eene, qui sera repris plus communément sous son nom actuel. Bestine est fondé par Melnea Arnthout et deviendra la capitale officielle de la planète. D’autres villes se construisent sur des ruines ou dans le désert, comme Fort Tusken (dans le désert de Jundland), Motesta (sur les ruines d’Anchorhead), Mos Esley et Mos Espa. 5 ans après l’explosion de la station orbitale Tatoo III (construite par des colons) avec le Obvious Nrivana, les Hutts font leur arrivée sur Tatooine (-65) et investissent Mos Espa puis chassent les Tusken. Jabba le Hutt fini par hériter du monastère B’Omarr et le modifiera constamment (-57). 11ans avant Yavin, l’Empire prendra le contrôle de la planète et Tour Aryon sera nommée préfet. L’Empire rendra Tatooine à l’Alliance Rebelle et aux Hutt 12 ans après. Quelques personnages importants sont originaires de Tatooine : Obi-Wan Kenobi (-56, maître Jedi), Anakin Skywalker (-41 connu aussi pour sa victoire à la Boonta Eve) ainsi que Gavin et Biggs tous les deux participeront à l’Alliance Rebelle.",
   },
   {
-    id: 11,
+    id: 2,
     planetName: "Lea-452",
     img: plan05,
     isHidden: false,
@@ -86,7 +87,7 @@ const Planetes = [
     txt: "L’industrialisation de Lea-452 date de plusieurs siècles. A sa surface, on peut trouver des mines, des usines, des bureaux et des logements pour les ouvriers. Le sous-sol de la planète ressemble à un vrai labyrinthe fait de tunnels. C’est Fondor qui eut le privilège de construire le premier modèle du Super Destroyer Stellaire pour l’Empire, après la Bataille de Yavin, au détriment des chantiers navals de Kuat, habitué à travailler avec le Régime de Palpatine. Ce vaisseau allait devenir le croiseur personnel de Darth Vader ; il s’agit de l’Executor. La discrétion fut de mise pour cette construction ; on ferma tout trafic non militaire, empêchant les clients habituels de fréquenter ces chantiers. Après avoir désapprouvé cette action, ils se plièrent tout de même à l’exigence du Seigneur Vader. Pouvoir prendre le dessus sur l’industrie de Kuat fut également une motivation. Certains Amiraux de l’Empire désapprouvèrent ce projet, assurant qu’il s’agissait d un caprice de Darth Vader. Un conspirateur du nom de Griff, proposa à l’Alliance Rebelle de faire entrer un saboteur sur les chantiers de Fondor. S’ils parvenaient à détruire l’Executor, cela anéantirai l’un des plus grands projets du Seigneur Sith.",
   },
   {
-    id: 1,
+    id: 3,
     planetName: "Dagobah",
     img: dagoba,
     isHidden: false,
@@ -106,13 +107,13 @@ const Planetes = [
   },
 
   {
-    id: 3,
+    id: 4,
     planetName: "Miller",
     img: miller,
     isHidden: false,
     darkFriday: false,
     soldOut: false,
-    perso: "",
+    perso: millerPerso,
     photo01: millerPays01,
     photo02: millerPays02,
     price: 110000,
@@ -126,7 +127,7 @@ const Planetes = [
   },
 
   {
-    id: 4,
+    id: 5,
     planetName: "Pandora",
     img: pandora,
     isHidden: false,
@@ -145,7 +146,7 @@ const Planetes = [
     txt: "Une étoile à gauche, et deux planètes telluriques puis trois géantes gazeuses, celle du milieu possède 9 satellites dont Pandora. Le système planétaire d'Alpha Centauri A dans l'univers d'Avatar. Pandora se situe dans la constellation du Centaure. Il s'agit d'une exolune tellurique qui abrite des formes de vie extraterrestres mais dont l'atmosphère est mortelle pour l'Homme. Pandora est l'un des quatorze satellites de l'exoplanète Polyphème, une géante gazeuse. Cette dernière orbite autour d'Alpha Centauri A, l'une des trois étoiles du système Alpha Centauri, elle se situe à 4,37 années-lumière de la Terre.Cette lune est semblable à la Terre vue de l'espace, mais elle est recouverte d'une jungle luxuriante et hostile pour les humains. Ces mêmes humains sont arrivés sur Pandora pour rechercher un minerai supraconducteur dont la planète regorge : l'unobtanium, qui permettrait de résoudre la crise énergétique qui se déroule sur Terre. Le coût de ce minerai (environ 20 000 000 $ le kilo) justifie une intense prospection et extraction de la part des humains. Ces derniers n'ont pas peur d'anéantir la faune et la flore locale si elles les empêchent d'extraire ce précieux minerai. C'est d'ailleurs le thème principal du premier film Avatar. Une des curiosités de la planète est la chaîne de montagne des Hallélujiah, une région où d'immenses blocs de roches lévitent dans le ciel grâce au pouvoir magnétique de l'unobtanium. Ces blocs ont été arrachés de la planète à la suite de tremblements de terre. La faune de Pandora est très féroce et peut être très dangereuse pour un être humain. Ils sont en moyenne plus grands que sur Terre, cela est dû à la gravité qui est plus faible. La plupart des animaux possède six membres au lieu de quatre et ont des os renforcés de fibre de carbonea. Ils peuvent être rencontrés dans tous les types de milieux : marin, terrestre et aérien. Le plus féroce et le plus redouté est le grand leonopterix, un prédateur volant dont l'envergure des ailes peut mesurer jusqu'à 30 m. Extrêmement agressif, il s'en est déjà pris à des appareils humains qui croisaient son chemina. En na'vi son nom est toruk, ce qui peut être traduit par « dernière ombre » en français, car il s'agit de la dernière chose qui est vue avant de mourira. Un navi qui parvient à se lier avec un grand leonopterix et à le dompter porte le titre de « Toruk Makto ». Au sol, c'est le thanator qui est le plus redouté, il se situerait au sommet de la chaîne alimentairea. Il ressemble à une panthère mais est bien plus imposant : 5,5 m de long et 2,5 m de hauta. Il possède au niveau de la tête une carapace qui peut le protéger des armes à feua. Parmi les herbivores, on trouve le titanothère : il ressemble à un éléphant mais est presque deux fois plus grand, il possède une tête massive qui a la forme de celle d'un requin marteaua. Il fait partie des rares herbivores capables de se défendre contre le grand leonopterix et le thanatora. Les métabêtes (surnommées « vaches à corne bleue ») sont des herbivores vivant en troupeau et souvent comparés aux bisonsa. Les na'vi les chassent pour leur viandea. Certaines espèces ont été domptées par les navi : les banshees, qui ressemblent à de grands reptiles volants, sont ainsi utilisés pour les déplacements aériens et les equidius, qui ressemblent à des chevaux, son utilisés pour les déplacements terrestres",
   },
   {
-    id: 10,
+    id: 6,
     planetName: "Marina Strange",
     img: plan04,
     isHidden: false,
@@ -164,7 +165,7 @@ const Planetes = [
     txt: "À l'époque de l'Empire Infini des Rakata (civilisation ayant atteint son apogée 5000 ans avant la création de la République, soit 30 000 ans avant la Bataille de Yavin), ces derniers tentèrent de conquérir les Sith. Ils découvrirent ce peuple sur Korriban, et tentèrent d'abord de gagner la confiance du souverain Adas, en enseignant comment préserver son essence dans un holocron. Mais s'ensuivit un affrontement sanglant avec les Sith, et ces derniers triomphèrent Suite à la défaite des Rakata, les Sith s'entretuèrent pour le pouvoir, plongeant la planète dans un conflit séculaire qui eut pour conséquence fut le changement de capitale sur Ziost. Puis, Korriban ne fit plus parler d'elle pendant plusieurs millénaires.",
   },
   {
-    id: 2,
+    id: 7,
     planetName: "Etoile Noire",
     img: etoilenoire,
     isHidden: false,
@@ -184,7 +185,7 @@ const Planetes = [
   },
 
   {
-    id: 6,
+    id: 8,
     planetName: "LV-426",
     img: lv426,
     isHidden: false,
@@ -204,7 +205,7 @@ const Planetes = [
   },
 
   {
-    id: 7,
+    id: 9,
     planetName: "Fallen",
     img: plan01,
     isHidden: false,
@@ -224,7 +225,7 @@ const Planetes = [
   },
 
   {
-    id: 8,
+    id: 10,
     planetName: "Beauty sphere",
     img: plan02,
     isHidden: false,
@@ -244,7 +245,7 @@ const Planetes = [
   },
 
   {
-    id: 9,
+    id: 11,
     planetName: "Echo-Two",
     img: plan03,
     isHidden: false,
@@ -273,7 +274,7 @@ const Planetes = [
     perso: plan06Perso,
     photo01: plan06Pays01,
     photo02: plan06Pays02,
-    price: "",
+    price: "soldout",
     stat: [
       { category: "Places restantes", level: 0 },
       { category: "Danger", level: 10 },

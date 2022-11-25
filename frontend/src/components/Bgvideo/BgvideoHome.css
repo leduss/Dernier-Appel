@@ -5,6 +5,8 @@
 }
 
 #bgVideo {
-  width: 100vw;
-  height: auto;
+  margin-top: -6vh;
+  margin-left: -20vh;
+  width: 120vw;
+  height: 120vh;
 }

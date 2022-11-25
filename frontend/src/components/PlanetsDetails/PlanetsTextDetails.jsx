@@ -6,7 +6,7 @@ function PlanetsTextDetails({ planete }) {
   return (
     <div className="schrollPlanet">
       <div className="planetDescription">
-        <h1>{planete.planetName}</h1>
+        <h1 className="hello">{planete.planetName}</h1>
         {planete.stat.map((stat) => (
           <PlanetStat category={stat.category} level={stat.level} />
         ))}

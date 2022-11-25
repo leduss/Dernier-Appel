@@ -8,6 +8,7 @@ import bouton from "../../assets/img/cartes/BoutonAllonsy.png";
 import PicClosePlanetsButton from "../../assets/img/cartes/bouttonClose.png";
 
 function PlanetCard({ selectedPlanet, showPlanet, priceLevel, setShowPlanet }) {
+  console.warn(priceLevel, "pipi");
   const handleClick = () => {
     setShowPlanet(false);
   };
