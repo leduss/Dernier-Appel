@@ -3,7 +3,7 @@ import { PropTypes } from "prop-types";
 import PlanetStat from "./PlanetStat";
 import "./PlanetCard.css";
 
-function PlanetCard({ selectedPlanet, showPlanet }) {
+function PlanetCard({ selectedPlanet, showPlanet, priceLevel }) {
   return (
     <div
       className="planet__detail__stats__container"
@@ -20,7 +20,7 @@ function PlanetCard({ selectedPlanet, showPlanet }) {
               level={stat.level}
             />
           ))}
-        <p className="price">{selectedPlanet.price}$</p>
+        <p className="price">{selectedPlanet.price + priceLevel}$</p>
       </div>
     </div>
   );
@@ -29,6 +29,7 @@ function PlanetCard({ selectedPlanet, showPlanet }) {
 PlanetCard.propTypes = {
   selectedPlanet: PropTypes.func.isRequired,
   showPlanet: PropTypes.bool.isRequired,
+  priceLevel: PropTypes.bool.isRequired,
 };
 
 export default PlanetCard;

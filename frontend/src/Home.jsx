@@ -10,6 +10,7 @@ import Nav from "./components/Nav/Nav";
 function Home() {
   const [selectedPlanet, setSelectedPlanet] = useState("");
   const [showPlanet, setShowPlanet] = useState(!true);
+  const [priceLevel, setPriceLevel] = useState(0);
 
   return (
     <div>
@@ -20,8 +21,12 @@ function Home() {
         showPlanet={showPlanet}
       />
       <BgvideoHome />
-      <PlanetCard selectedPlanet={selectedPlanet} showPlanet={showPlanet} />
-      <Chrono />
+      <PlanetCard
+        selectedPlanet={selectedPlanet}
+        showPlanet={showPlanet}
+        priceLevel={priceLevel}
+      />
+      <Chrono priceLevel={priceLevel} setPriceLevel={setPriceLevel} />
       <Nav />
     </div>
   );
