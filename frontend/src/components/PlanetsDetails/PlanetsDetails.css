@@ -35,6 +35,10 @@
   left: 47vw;
 }
 
+.hidden {
+  display: none;
+}
+
 .schrollPlanet {
   position: absolute;
   top: 10vh;
@@ -54,4 +58,27 @@
 
 .text {
   font-size: xx-large;
+}
+
+.priceDetail {
+  position: absolute;
+  top: 80vh;
+  left: 30vw;
+  width: 20vw;
+  height: 20vh;
+  z-index: 320;
+  color: brown;
+  font-size: 4rem;
+}
+
+.priceSoldOutDetail {
+  position: absolute;
+  top: 78vh;
+  left: 30vw;
+  width: 20vw;
+  height: 20vh;
+  z-index: 320;
+  font-size: 4rem;
+  color: red;
+  animation: blink infinite 1s linear;
 }
