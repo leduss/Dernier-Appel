@@ -28,7 +28,7 @@ function Home({ priceLevel, setPriceLevel, population }) {
         setPriceLevel={setPriceLevel}
         population={population}
       />
-      <Nav />
+      <Nav priceLevel={priceLevel} population={population} />
     </div>
   );
 }

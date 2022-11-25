@@ -18,8 +18,8 @@ function Chrono({ setPriceLevel, priceLevel, population, setPopulation }) {
       if (level % 2 === 0) {
         setPriceLevel(priceLevel + 100);
       }
-      if (level % 10 === 0) {
-        setPopulation(population + 10);
+      if (level % 20 === 0) {
+        setPopulation(population + 5);
       }
       if (seconds === 0) {
         setMinutes(minutes - 1);

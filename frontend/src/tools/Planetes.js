@@ -78,7 +78,7 @@ const Planetes = [
     photo02: plan05Pays02,
     price: 150000,
     stat: [
-      { category: "Places restantes", level: 12 },
+      { category: "Places restantes", level: 22 },
       { category: "Danger", level: 50 },
       { category: "Résistance à l'Homme", level: 22 },
       { category: "Habitabilité - Confort", level: 62 },
@@ -137,7 +137,7 @@ const Planetes = [
     photo02: pandoraPays02,
     price: 111111,
     stat: [
-      { category: "Places restantes", level: 0 },
+      { category: "Places restantes", level: 30 },
       { category: "Danger", level: 50 },
       { category: "Résistance à l'Homme", level: 40 },
       { category: "Habitabilité - Confort", level: 70 },
@@ -233,9 +233,9 @@ const Planetes = [
     perso: plan02Perso,
     photo01: plan02Pays01,
     photo02: plan02Pays02,
-    price: "soldout",
+    price: 100000,
     stat: [
-      { category: "Places restantes", level: 0 },
+      { category: "Places restantes", level: 50 },
       { category: "Danger", level: 2 },
       { category: "Résistance à l'Homme", level: 95 },
       { category: "Habitabilité - Confort", level: 78 },
@@ -275,7 +275,7 @@ const Planetes = [
     photo02: plan06Pays02,
     price: "",
     stat: [
-      { category: "Places restantes", level: 0 },
+      { category: "Places restantes", level: 20 },
       { category: "Danger", level: 10 },
       { category: "Résistance à l'Homme", level: 75 },
       { category: "Habitabilité - Confort", level: 80 },
