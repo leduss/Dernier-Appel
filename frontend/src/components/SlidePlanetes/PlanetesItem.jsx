@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import { PropTypes } from "prop-types";
 
-function PlanetesItem({
-  planete,
-  setSelectedPlanet,
-  setShowPlanet,
-  showPlanet,
-}) {
+function PlanetesItem({ planete, setSelectedPlanet, setShowPlanet }) {
   const [show, setShow] = useState(false);
 
   const handleMouseEnter = () => {
@@ -17,7 +12,7 @@ function PlanetesItem({
   };
 
   const handleClick = () => {
-    setShowPlanet(!showPlanet);
+    setShowPlanet(true);
   };
 
   return (
@@ -44,7 +39,6 @@ PlanetesItem.propTypes = {
   planete: PropTypes.func.isRequired,
   setSelectedPlanet: PropTypes.func.isRequired,
   setShowPlanet: PropTypes.func.isRequired,
-  showPlanet: PropTypes.func.isRequired,
 };
 
 export default PlanetesItem;

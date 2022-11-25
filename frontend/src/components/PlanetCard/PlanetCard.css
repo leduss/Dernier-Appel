@@ -75,3 +75,13 @@
   width: 15vmin;
   border: none;
 }
+
+.buttonClose {
+  position: absolute;
+  top: 1vh;
+  left: 14vw;
+}
+
+.buttonClose img {
+  border: none;
+}
