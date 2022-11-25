@@ -13,11 +13,18 @@
   src: url(./assets/fonts/titres/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+ul {
+  list-style-type: none;
 }
 
 :root {
@@ -26,12 +33,7 @@
   --font-title: BigShouldersDisplay-VariableFont_wght;
 }
 
-
-body{
-
-height: 100%;
-}
-
-body::-webkit-scrollbar {
-  display: none;
+body {
+  font-family: var(--font-title);
+  background-color: black;
 }
