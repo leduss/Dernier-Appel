@@ -33,7 +33,7 @@ function PlanetStat({ category, level }) {
           initial={{ width: 0 }}
           animate={{ width: `${level}%` }}
           exit={{ width: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           className="planet__stats__details__inner"
           style={{
             width: `${level}%`,

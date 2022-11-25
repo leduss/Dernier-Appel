@@ -196,7 +196,7 @@ const Planetes = [
     perso: plan02Perso,
     photo01: plan02Pays01,
     photo02: plan02Pays02,
-    price: "",
+    price: 30000,
     stat: [
       { category: "Places restantes", level: 0 },
       { category: "Danger", level: 2 },
@@ -265,7 +265,6 @@ const Planetes = [
     ],
     txt: "L’industrialisation de Lea-452 date de plusieurs siècles. A sa surface, on peut trouver des mines, des usines, des bureaux et des logements pour les ouvriers. Le sous-sol de la planète ressemble à un vrai labyrinthe fait de tunnels. C’est Fondor qui eut le privilège de construire le premier modèle du Super Destroyer Stellaire pour l’Empire, après la Bataille de Yavin, au détriment des chantiers navals de Kuat, habitué à travailler avec le Régime de Palpatine. Ce vaisseau allait devenir le croiseur personnel de Darth Vader ; il s’agit de l’Executor. La discrétion fut de mise pour cette construction ; on ferma tout trafic non militaire, empêchant les clients habituels de fréquenter ces chantiers. Après avoir désapprouvé cette action, ils se plièrent tout de même à l’exigence du Seigneur Vader. Pouvoir prendre le dessus sur l’industrie de Kuat fut également une motivation. Certains Amiraux de l’Empire désapprouvèrent ce projet, assurant qu’il s’agissait d un caprice de Darth Vader. Un conspirateur du nom de Griff, proposa à l’Alliance Rebelle de faire entrer un saboteur sur les chantiers de Fondor. S’ils parvenaient à détruire l’Executor, cela anéantirai l’un des plus grands projets du Seigneur Sith.",
   },
-
   {
     id: 12,
     planetName: "Lina-S",
