@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -5,7 +6,7 @@ import Planetes from "../../tools/Planetes";
 import NavBar from "./NavBar";
 import "./nav.css";
 
-function Nav() {
+function Nav({ priceLevel, population }) {
   return (
     <motion.ul
       transition={{
@@ -21,7 +22,11 @@ function Nav() {
       {Planetes.map((navigation) => (
         <Link to={`/planets/${navigation.id - 1}`}>
           <li className="nav" id={navigation.name} key={navigation.id}>
-            <NavBar navigation={navigation} />
+            <NavBar
+              navigation={navigation}
+              priceLevel={priceLevel}
+              population={population}
+            />
           </li>
         </Link>
       ))}
