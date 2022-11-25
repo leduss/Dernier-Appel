@@ -11,7 +11,8 @@ import Planetes from "../../tools/Planetes";
 import "./PlanetsDetails.css";
 import PriceLevel from "./PriceLevel";
 
-function PlanetsDetails({ priceLevel }) {
+// eslint-disable-next-line react/prop-types
+function PlanetsDetails({ priceLevel, population }) {
   const { id } = useParams();
 
   return (
@@ -21,13 +22,26 @@ function PlanetsDetails({ priceLevel }) {
       <Link to="/">
         <ClosePlanetsButton />
       </Link>
-      <PlanetsTextDetails planete={Planetes[id]} priceLevel={priceLevel} />
+      <PlanetsTextDetails
+        planete={Planetes[id]}
+        priceLevel={priceLevel}
+        population={population}
+      />
       <Autochtone
         planetName={Planetes[id].planetName}
         perso={Planetes[id].perso}
       />
-      <PriceLevel price={Planetes[id].price} priceLevel={priceLevel} />
-      <BuyButton price={Planetes[id].price} />
+      <PriceLevel
+        planete={Planetes[id]}
+        price={Planetes[id].price}
+        priceLevel={priceLevel}
+        population={population}
+      />
+      <BuyButton
+        price={Planetes[id].price}
+        population={population}
+        planete={Planetes[id]}
+      />
     </div>
   );
 }

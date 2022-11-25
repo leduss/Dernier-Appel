@@ -7,8 +7,13 @@ import "./PlanetCard.css";
 import bouton from "../../assets/img/cartes/BoutonAllonsy.png";
 import PicClosePlanetsButton from "../../assets/img/cartes/bouttonClose.png";
 
-function PlanetCard({ selectedPlanet, showPlanet, priceLevel, setShowPlanet }) {
-  console.warn(priceLevel, "pipi");
+function PlanetCard({
+  selectedPlanet,
+  showPlanet,
+  priceLevel,
+  setShowPlanet,
+  population,
+}) {
   const handleClick = () => {
     setShowPlanet(false);
   };
@@ -62,14 +67,17 @@ function PlanetCard({ selectedPlanet, showPlanet, priceLevel, setShowPlanet }) {
               name={stat.category}
               category={stat.category}
               level={stat.level}
+              population={population}
             />
           ))}
         <p
           className={
-            selectedPlanet.price === "soldout" ? "priceSoldOut" : "price"
+            selectedPlanet && selectedPlanet.stat[0].level - population <= 0
+              ? "priceSoldOut"
+              : "price"
           }
         >
-          {selectedPlanet.price === "soldout"
+          {selectedPlanet && selectedPlanet.stat[0].level - population <= 0
             ? "Sold Out"
             : `${selectedPlanet.price + priceLevel}$`}
         </p>
@@ -92,6 +100,7 @@ PlanetCard.propTypes = {
   showPlanet: PropTypes.bool.isRequired,
   priceLevel: PropTypes.bool.isRequired,
   setShowPlanet: PropTypes.bool.isRequired,
+  population: PropTypes.bool.isRequired,
 };
 
 export default PlanetCard;
