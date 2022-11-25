@@ -8,7 +8,7 @@ function PlanetCard({ selectedPlanet }) {
     <div className="planet__detail__stats__container">
       <p className="title">{selectedPlanet.planetName}</p>
       <div className="planet__details">
-        <img src={selectedPlanet.img} alt={selectedPlanet.planetName} />
+        <img src={selectedPlanet.photo01} alt={selectedPlanet.planetName} />
         {selectedPlanet &&
           selectedPlanet.stat.map((stat) => (
             <PlanetStat
@@ -17,6 +17,7 @@ function PlanetCard({ selectedPlanet }) {
               level={stat.level}
             />
           ))}
+        <p className="price">{selectedPlanet.price}$</p>
       </div>
     </div>
   );

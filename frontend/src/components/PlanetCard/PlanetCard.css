@@ -19,12 +19,16 @@
 
 .title {
   font-size: 2rem;
-  text-shadow: 3px 3px 3px;
-  color: black;
+  text-shadow: 3px 3px 3px black;
+  color: white;
 }
 
 .planet__detail__stats__container img {
-  height: 50%;
+  min-height: 40%;
+  max-height: 40%;
+  width: 90%;
+  object-fit: cover;
+  border: 2px solid white;
 }
 
 .planet__details {
@@ -37,4 +41,8 @@
   font-family: "AlegreyaSans-Regular";
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.price {
+  font-size: 4vmin;
 }
