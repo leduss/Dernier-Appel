@@ -9,13 +9,14 @@ function PlanetCard({ selectedPlanet }) {
       <p className="title">{selectedPlanet.planetName}</p>
       <div className="planet__details">
         <img src={selectedPlanet.img} alt={selectedPlanet.planetName} />
-        {selectedPlanet.stat.map((stat) => (
-          <PlanetStat
-            name={stat.category}
-            category={stat.category}
-            level={stat.level}
-          />
-        ))}
+        {selectedPlanet &&
+          selectedPlanet.stat.map((stat) => (
+            <PlanetStat
+              name={stat.category}
+              category={stat.category}
+              level={stat.level}
+            />
+          ))}
       </div>
     </div>
   );
