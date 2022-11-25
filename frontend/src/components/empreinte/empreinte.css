@@ -9,6 +9,7 @@
   width: 52vw;
   background: rgb(33, 32, 32);
   border-radius: 50px;
+  z-index: 500;
 }
 
 .scan {
