@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import "./Chrono.css";
 
 function Chrono() {
-  const [seconds, setSeconds] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [hours, setHours] = useState("01");
+  const [seconds, setSeconds] = useState(59);
+  const [minutes, setMinutes] = useState(59);
+  const [hours, setHours] = useState(23);
   const [level, setLevel] = useState(-3);
   const [priceLevel, setPriceLevel] = useState(0);
 
   let timer;
+  const price = 1000;
 
   useEffect(() => {
     timer = setInterval(() => {
@@ -30,12 +30,14 @@ function Chrono() {
   });
 
   return (
-    <div className="container__chrono">
-      <h1 className="title__chrono">Dernier départ</h1>
-      <h2 className="chrono">
-        {hours < 10 ? hours : hours}:{minutes < 10 ? minutes : minutes}:
+    <div>
+      <h1>Chrono</h1>
+      <h2>
+        {hours < 10 ? hours : hours} : {minutes < 10 ? minutes : minutes} :{" "}
         {seconds < 10 ? seconds : seconds}
       </h2>
+      <h1>Price</h1>
+      <h2>{price + priceLevel}</h2>
     </div>
   );
 }
