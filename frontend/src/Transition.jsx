@@ -13,7 +13,10 @@ function Transition({ priceLevel, setPriceLevel }) {
         path="/"
         element={<Home priceLevel={priceLevel} setPriceLevel={setPriceLevel} />}
       />
-      <Route path="/planets/:id" element={<PlanetsDetails />} />
+      <Route
+        path="/planets/:id"
+        element={<PlanetsDetails priceLevel={priceLevel} />}
+      />
       <Route path="*" element={<Error />} />
       <Route path="/empreinte" element={<Empreinte />} />
     </Routes>
