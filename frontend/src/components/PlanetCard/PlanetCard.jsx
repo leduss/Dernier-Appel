@@ -2,6 +2,7 @@ import React from "react";
 import PlanetStat from "./PlanetStat";
 import "./PlanetCard.css";
 import Planetes from "../../tools/Planetes";
+import bouton from "../../assets/img/cartes/BoutonAllonsy.png";
 
 function PlanetCard() {
   return (
@@ -17,6 +18,9 @@ function PlanetCard() {
           />
         ))}
         <p>{Planetes[4].id}$</p>
+      </div>
+      <div className="go">
+        <img src={bouton} alt="Allons-y" />
       </div>
     </div>
   );

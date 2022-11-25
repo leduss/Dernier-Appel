@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Chrono />
+
         <Transition />
         <Nav />
       </Router>
