@@ -67,7 +67,6 @@ const Planetes = [
     ],
     txt: "C'est une apparition de Ben Kenobi au jeune Luke Skywalker qui incitera ce dernier à aller trouver le vieux Maitre pour suivre une formation de Jedi. Les plus célèbres endroits de cette planète restent la hutte de Yoda et la Grotte envahie par le côté obscur et où Luke échoua dans son entrainement en se laissant aller à la colère. Dagobah se situe dans le secteur de Sluis dans les territoires de la Bordure Extérieure. La planète la plus proche est Sluis Van. Sa population est principalement composée d’animaux tels que les dragons des marais, les limaces des marais, les champignons carnivores, les punaises-bouchers et les chauves-souris. Il y a aussi les araignées blanches à bosse. Cette espèce a une vie qui est vraiment très intéressante : pendant un moment elles sont des araignées blanches à bosse et un jour elles prennent racines et devint un arbre gnarl. Il n’y a pas de langue puisque les animaux ne parlent pas. Un jour dure vingt-trois heures standards et son année est de trois cent quarante et un jours locaux. C’est un monde oublié et qui ne figure pas sur les cartes. Les personnes qui s’y sont rendu disent que c’est un monde hanté. La planète est en très grande partie recouverte de marais et d’immenses jungles. Elle a un climat très chaud et très humide. Les pluies constantes maintiennent cet écosystème en place.",
   },
-  ,
   {
     id: 2,
     planetName: "Etoile Noire",
