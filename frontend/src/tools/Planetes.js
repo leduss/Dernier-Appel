@@ -46,7 +46,6 @@ import plan06Pays01 from "../assets/img/planetes/plan06/plan06Pays01.jpg";
 import plan06Pays02 from "../assets/img/planetes/plan06/plan06Pays02.jpg";
 import alien01 from "../assets/img/planetes/LV426/alien_01.png";
 
-
 const Planetes = [
   {
     id: 1,
