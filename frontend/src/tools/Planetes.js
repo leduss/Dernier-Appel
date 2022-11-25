@@ -270,11 +270,11 @@ const Planetes = [
     img: plan06,
     isHidden: false,
     darkFriday: false,
-    soldOut: true,
+    soldOut: false,
     perso: plan06Perso,
     photo01: plan06Pays01,
     photo02: plan06Pays02,
-    price: "soldout",
+    price: 250000,
     stat: [
       { category: "Places restantes", level: 20 },
       { category: "Danger", level: 10 },

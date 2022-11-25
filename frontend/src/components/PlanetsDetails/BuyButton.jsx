@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import Empreinte from "../empreinte/Empreinte";
 import PicBuyButton from "../../assets/img/pagePlanetes/BoutonAchete.png";
 
-function BuyButton({ price }) {
+// eslint-disable-next-line no-unused-vars
+function BuyButton({ price, planete, population }) {
   const [popup, setPopup] = useState(false);
   const popupClick = () => {
     setPopup(!popup);
@@ -15,7 +17,11 @@ function BuyButton({ price }) {
         whileHover={{ scale: 1.2, rotate: -4, y: 0 }}
         src={PicBuyButton}
         alt="BuyButton"
-        className={price === "soldout" ? "hidden" : "PlanetDetailBuyButton"}
+        className={
+          planete && planete.stat[0].level - population <= 0
+            ? "hidden"
+            : "PlanetDetailBuyButton"
+        }
         onClick={popupClick}
         role="presentation"
       />

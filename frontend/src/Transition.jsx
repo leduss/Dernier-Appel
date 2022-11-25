@@ -21,7 +21,9 @@ function Transition({ priceLevel, setPriceLevel, population }) {
       />
       <Route
         path="/planets/:id"
-        element={<PlanetsDetails priceLevel={priceLevel} />}
+        element={
+          <PlanetsDetails priceLevel={priceLevel} population={population} />
+        }
       />
       <Route path="*" element={<Error />} />
       <Route path="/empreinte" element={<Empreinte />} />
