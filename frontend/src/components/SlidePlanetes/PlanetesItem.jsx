@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { PropTypes } from "prop-types";
 
-function PlanetesItem({ planete }) {
+function PlanetesItem({ planete, setSelectedPlanet }) {
   const [show, setShow] = useState(false);
 
   const handleMouseEnter = () => {
@@ -17,7 +17,7 @@ function PlanetesItem({ planete }) {
         className="btn-planete"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        // onClick=
+        onClick={() => setSelectedPlanet(planete)}
         id={planete.id}
         src={planete.img}
         alt={planete.planetName}
@@ -30,6 +30,7 @@ function PlanetesItem({ planete }) {
 
 PlanetesItem.propTypes = {
   planete: PropTypes.func.isRequired,
+  setSelectedPlanet: PropTypes.func.isRequired,
 };
 
 export default PlanetesItem;

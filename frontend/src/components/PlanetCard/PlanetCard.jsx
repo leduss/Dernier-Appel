@@ -1,25 +1,28 @@
 import React from "react";
+import { PropTypes } from "prop-types";
 import PlanetStat from "./PlanetStat";
 import "./PlanetCard.css";
-import Planetes from "../../tools/Planetes";
 
-function PlanetCard() {
+function PlanetCard({ selectedPlanet }) {
   return (
     <div className="planet__detail__stats__container">
-      <p className="title">{Planetes[4].planetName}</p>
+      <p className="title">{selectedPlanet.planetName}</p>
       <div className="planet__details">
-        <img src={Planetes[4].img} alt={Planetes[4].name} />
-        {Planetes[4].stat.map((stat) => (
+        <img src={selectedPlanet.img} alt={selectedPlanet.planetName} />
+        {selectedPlanet.stat.map((stat) => (
           <PlanetStat
             name={stat.category}
             category={stat.category}
             level={stat.level}
           />
         ))}
-        <p>{Planetes[4].id}$</p>
       </div>
     </div>
   );
 }
+
+PlanetCard.propTypes = {
+  selectedPlanet: PropTypes.func.isRequired,
+};
 
 export default PlanetCard;
