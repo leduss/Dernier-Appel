@@ -4,22 +4,24 @@ import PlanetStat from "@components/PlanetCard/PlanetStat";
 
 function PlanetsTextDetails({ planete }) {
   return (
-    <div className="planetDescription">
-      <h1>{planete.planetName}</h1>
-      {planete.stat.map((stat) => (
-        <PlanetStat category={stat.category} level={stat.level} />
-      ))}
-      <p>{planete.txt}</p>
-      <img
-        src={planete.photo01}
-        alt={planete.planetName}
-        className="PlanetsDetailsPicture"
-      />
-      <img
-        src={planete.photo02}
-        alt={planete.planetName}
-        className="PlanetsDetailsPicture"
-      />
+    <div className="schrollPlanet">
+      <div className="planetDescription">
+        <h1>{planete.planetName}</h1>
+        {planete.stat.map((stat) => (
+          <PlanetStat category={stat.category} level={stat.level} />
+        ))}
+        <p className="text">{planete.txt}</p>
+        <img
+          src={planete.photo01}
+          alt={planete.planetName}
+          className="PlanetsDetailsPicture"
+        />
+        <img
+          src={planete.photo02}
+          alt={planete.planetName}
+          className="PlanetsDetailsPicture"
+        />
+      </div>
     </div>
   );
 }

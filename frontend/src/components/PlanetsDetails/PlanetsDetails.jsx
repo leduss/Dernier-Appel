@@ -7,6 +7,7 @@ import PlanetsTextDetails from "./PlanetsTextDetails";
 import Autochtone from "./Autochtone";
 import BuyButton from "./BuyButton";
 import Planetes from "../../tools/Planetes";
+import "./PlanetsDetails.css";
 
 function PlanetsDetails() {
   const { id } = useParams();
