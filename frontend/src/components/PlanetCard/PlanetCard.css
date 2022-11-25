@@ -1,7 +1,7 @@
 .planet__detail__stats__container {
   position: fixed;
   top: 15vh;
-  left: 70vw;
+  left: 75vw;
   background-image: url("../../assets/img/cartes/card.png");
   background-size: 100% 100%;
   display: flex;
@@ -15,6 +15,7 @@
 
 .title {
   font-size: 2rem;
+  padding-top: 8%;
   font-family: var(--font-title);
   text-shadow: 3px 3px 3px black;
   color: white;
@@ -77,8 +78,10 @@
 
 .buttonClose {
   position: absolute;
-  top: 1vh;
+  width: 2.5vw;
+  top: 2vh;
   left: 14vw;
+  cursor: pointer;
 }
 
 .buttonClose img {

@@ -7,7 +7,6 @@ function NavBar({ navigation }) {
       <img className="img__navbar" src={navigation.img} alt="" />
       <div className="container__title">
         <h2 className="first__title__navbar">{navigation.planetName}</h2>
-        <h4 className="second__title_navbar">{navigation.planetName}</h4>
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ function Home({ priceLevel, setPriceLevel }) {
         priceLevel={priceLevel}
         setPriceLevel={setPriceLevel}
       />
-      <Nav />
+      <Nav priceLevel={priceLevel} />
     </div>
   );
 }
