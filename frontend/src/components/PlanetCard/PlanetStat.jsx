@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./PlanetStat.css";
 
 // eslint-disable-next-line react/prop-types
-function PlanetStat({ name, category, level }) {
+function PlanetStat({ category, level }) {
   const [backgroundColor, setBackgroundColor] = useState("");
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function PlanetStat({ name, category, level }) {
 
   return (
     <div className="planet__stats__details">
-      <p>{name}</p>
+      <p>{category}</p>
       <div className="planet__stats__details__outter">
         <motion.div
           initial={{ width: 0 }}

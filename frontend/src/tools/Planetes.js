@@ -8,10 +8,10 @@ import etoilenoirePays02 from "../assets/img/planetes/Etoile_noire/etoile_noire_
 import stormt from "../assets/img/planetes/Etoile_noire/stormt.png";
 import miller from "../assets/img/planetes/miller/miller_planete.png";
 import millerPays01 from "../assets/img/planetes/miller/miller_pic1.jpeg";
-import millerPays02 from "../assets/img/planetes/miller/miller_pic3.jpeg";
+import millerPays02 from "../assets/img/planetes/miller/miller_pic3.webp";
 import pandora from "../assets/img/planetes/Pandora/pandora_planete.png";
 import pandoraPays01 from "../assets/img/planetes/Pandora/pandora_pic2.jpg";
-import pandoraPays02 from "../assets/img/planetes/Pandora/pandora_pic5.jpg";
+import pandoraPays02 from "../assets/img/planetes/Pandora/pandora_pic5.jpeg";
 import avatars from "../assets/img/planetes/Pandora/avatars.png";
 import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
 import tatooinePays01 from "../assets/img/planetes/Tatooine/tatooine_pic1.jpeg";
@@ -46,7 +46,6 @@ import plan06Pays01 from "../assets/img/planetes/plan06/plan06Pays01.jpg";
 import plan06Pays02 from "../assets/img/planetes/plan06/plan06Pays02.jpg";
 import alien01 from "../assets/img/planetes/LV426/alien_01.png";
 
-
 const Planetes = [
   {
     id: 1,
@@ -67,7 +66,6 @@ const Planetes = [
     ],
     txt: "C'est une apparition de Ben Kenobi au jeune Luke Skywalker qui incitera ce dernier à aller trouver le vieux Maitre pour suivre une formation de Jedi. Les plus célèbres endroits de cette planète restent la hutte de Yoda et la Grotte envahie par le côté obscur et où Luke échoua dans son entrainement en se laissant aller à la colère. Dagobah se situe dans le secteur de Sluis dans les territoires de la Bordure Extérieure. La planète la plus proche est Sluis Van. Sa population est principalement composée d’animaux tels que les dragons des marais, les limaces des marais, les champignons carnivores, les punaises-bouchers et les chauves-souris. Il y a aussi les araignées blanches à bosse. Cette espèce a une vie qui est vraiment très intéressante : pendant un moment elles sont des araignées blanches à bosse et un jour elles prennent racines et devint un arbre gnarl. Il n’y a pas de langue puisque les animaux ne parlent pas. Un jour dure vingt-trois heures standards et son année est de trois cent quarante et un jours locaux. C’est un monde oublié et qui ne figure pas sur les cartes. Les personnes qui s’y sont rendu disent que c’est un monde hanté. La planète est en très grande partie recouverte de marais et d’immenses jungles. Elle a un climat très chaud et très humide. Les pluies constantes maintiennent cet écosystème en place.",
   },
-  ,
   {
     id: 2,
     planetName: "Etoile Noire",

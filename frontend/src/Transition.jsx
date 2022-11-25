@@ -8,7 +8,7 @@ function Transition() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/planets/:name" element={<PlanetsDetails />} />
+      <Route path="/planets/:id" element={<PlanetsDetails />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );
