@@ -1,16 +1,15 @@
 import React, { useState } from "react";
+import { PropTypes } from "prop-types";
 import BgvideoHome from "./components/Bgvideo/BgvideoHome";
-import Chrono from "./components/Chrono/Chrono";
 import SlidePlanetes from "./components/SlidePlanetes/SlidePlanetes";
 import logo from "./assets/img/logo/logo_global.png";
 import "./Home.css";
 import PlanetCard from "./components/PlanetCard/PlanetCard";
 import Nav from "./components/Nav/Nav";
 
-function Home() {
+function Home({ priceLevel, setPriceLevel }) {
   const [selectedPlanet, setSelectedPlanet] = useState("");
   const [showPlanet, setShowPlanet] = useState(!true);
-  const [priceLevel, setPriceLevel] = useState(0);
 
   return (
     <div>
@@ -25,11 +24,15 @@ function Home() {
         selectedPlanet={selectedPlanet}
         showPlanet={showPlanet}
         priceLevel={priceLevel}
+        setPriceLevel={setPriceLevel}
       />
-      <Chrono priceLevel={priceLevel} setPriceLevel={setPriceLevel} />
       <Nav />
     </div>
   );
 }
 
+Home.propTypes = {
+  setPriceLevel: PropTypes.func.isRequired,
+  priceLevel: PropTypes.bool.isRequired,
+};
 export default Home;

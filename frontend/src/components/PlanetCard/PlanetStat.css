@@ -16,9 +16,8 @@
   position: relative;
 }
 
-.planet__stats__details p{
+.planet__stats__details p {
   width: 80%;
-  
 }
 
 .planet__stats__details__outter span {

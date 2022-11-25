@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Chrono.css";
 import { PropTypes } from "prop-types";
+import "./Chrono.css";
 
-function Chrono({ priceLevel, setPriceLevel }) {
+function Chrono({ setPriceLevel, priceLevel }) {
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [hours, setHours] = useState("01");
@@ -42,7 +42,6 @@ function Chrono({ priceLevel, setPriceLevel }) {
 
 Chrono.propTypes = {
   setPriceLevel: PropTypes.func.isRequired,
-  priceLevel: PropTypes.func.isRequired,
+  priceLevel: PropTypes.bool.isRequired,
 };
-
 export default Chrono;

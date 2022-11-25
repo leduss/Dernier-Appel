@@ -47,25 +47,28 @@
 
 .priceSoldOut {
   color: red;
-  animation: blink infinite 1s linear;  
+  animation: blink infinite 1s linear;
 }
 
 @keyframes blink {
-  from { scale: 1 }
-  50%  { scale: 1.7 } /* ignorée */
-  to   { scale: 1 }
-  
+  from {
+    scale: 1;
+  }
+  50% {
+    scale: 1.7;
+  } /* ignorée */
+  to {
+    scale: 1;
+  }
 }
 
-.go{
+.go {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.go img{
+.go img {
   width: 15vmin;
   border: none;
 }
-
-
