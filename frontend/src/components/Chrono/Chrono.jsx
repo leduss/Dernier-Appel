@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { PropTypes } from "prop-types";
 import "./Chrono.css";
 
-function Chrono({ setPriceLevel, priceLevel }) {
+function Chrono({ setPriceLevel, priceLevel, population, setPopulation }) {
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [hours, setHours] = useState("01");
@@ -16,6 +16,9 @@ function Chrono({ setPriceLevel, priceLevel }) {
       setLevel(level + 1);
       if (level % 2 === 0) {
         setPriceLevel(priceLevel + 100);
+      }
+      if (level % 10 === 0) {
+        setPopulation(population + 10);
       }
       if (seconds === 0) {
         setMinutes(minutes - 1);
@@ -43,5 +46,7 @@ function Chrono({ setPriceLevel, priceLevel }) {
 Chrono.propTypes = {
   setPriceLevel: PropTypes.func.isRequired,
   priceLevel: PropTypes.bool.isRequired,
+  setPopulation: PropTypes.func.isRequired,
+  population: PropTypes.bool.isRequired,
 };
 export default Chrono;

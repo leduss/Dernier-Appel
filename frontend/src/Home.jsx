@@ -7,7 +7,7 @@ import "./Home.css";
 import PlanetCard from "./components/PlanetCard/PlanetCard";
 import Nav from "./components/Nav/Nav";
 
-function Home({ priceLevel, setPriceLevel }) {
+function Home({ priceLevel, setPriceLevel, population }) {
   const [selectedPlanet, setSelectedPlanet] = useState("");
   const [showPlanet, setShowPlanet] = useState(false);
 
@@ -26,6 +26,7 @@ function Home({ priceLevel, setPriceLevel }) {
         setShowPlanet={setShowPlanet}
         priceLevel={priceLevel}
         setPriceLevel={setPriceLevel}
+        population={population}
       />
       <Nav />
     </div>
@@ -35,5 +36,6 @@ function Home({ priceLevel, setPriceLevel }) {
 Home.propTypes = {
   setPriceLevel: PropTypes.func.isRequired,
   priceLevel: PropTypes.bool.isRequired,
+  population: PropTypes.bool.isRequired,
 };
 export default Home;
