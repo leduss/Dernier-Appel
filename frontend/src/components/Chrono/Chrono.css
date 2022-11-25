@@ -19,4 +19,5 @@
   font-size: 8vmin;
   color: rgb(159, 16, 16);
   font-family: var(--font-chrono);
+  cursor: pointer;
 }
