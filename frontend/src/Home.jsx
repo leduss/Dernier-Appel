@@ -3,6 +3,7 @@ import BgvideoHome from "./components/Bgvideo/BgvideoHome";
 import Chrono from "./components/Chrono/Chrono";
 import SlidePlanetes from "./components/SlidePlanetes/SlidePlanetes";
 import logo from "./assets/img/logo/logo_global.png";
+import Nav from "./components/Nav/Nav";
 import "./Home.css";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <SlidePlanetes />
       <BgvideoHome />
       <Chrono />
+      <Nav />
     </div>
   );
 }

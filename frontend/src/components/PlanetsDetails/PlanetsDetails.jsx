@@ -18,12 +18,7 @@ function PlanetsDetails() {
       <Link to="/">
         <ClosePlanetsButton />
       </Link>
-      <PlanetsTextDetails
-        photo01={Planetes[id].photo01}
-        photo02={Planetes[id].photo02}
-        planetName={Planetes[id].planetName}
-        text={Planetes[id].text}
-      />
+      <PlanetsTextDetails planete={Planetes[id]} />
       <Autochtone
         planetName={Planetes[id].planetName}
         perso={Planetes[id].perso}
