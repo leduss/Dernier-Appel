@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function PriceLevel({ price, priceLevel }) {
   return (
-    <p className={price === "soldout" ? "priceSoldOut" : "price"}>
+    <p className={price === "soldout" ? "priceSoldOutDetail" : "priceDetail"}>
       {price === "soldout" ? "Sold Out" : `${price + priceLevel}$`}
     </p>
   );

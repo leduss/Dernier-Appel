@@ -60,7 +60,7 @@
   font-size: xx-large;
 }
 
-.price {
+.priceDetail {
   position: absolute;
   top: 80vh;
   left: 30vw;
@@ -71,7 +71,7 @@
   font-size: 4rem;
 }
 
-.priceSoldOut {
+.priceSoldOutDetail {
   position: absolute;
   top: 78vh;
   left: 30vw;
