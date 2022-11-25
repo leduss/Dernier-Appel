@@ -41,6 +41,8 @@ import plan05Pays02 from "../assets/img/planetes/plan05/plan05Pays02.png";
 import plan06 from "../assets/img/planetes/plan06/plan06.png";
 import plan06Pays01 from "../assets/img/planetes/plan06/plan06Pays01.jpg";
 import plan06Pays02 from "../assets/img/planetes/plan06/plan06Pays02.jpg";
+import alien01 from "../assets/img/planetes/LV426/alien_01.png";
+
 
 const Planetes = [
   {
@@ -150,7 +152,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: true,
     soldOut: false,
-    perso: alien_01,
+    perso: alien01,
     photo01: lv426Paysage01,
     photo02: lv426Paysage02,
     price: 50000,
