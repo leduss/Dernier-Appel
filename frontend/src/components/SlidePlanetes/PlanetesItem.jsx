@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { PropTypes } from "prop-types";
+import { motion } from "framer-motion";
 
 function PlanetesItem({ planete, setSelectedPlanet, setShowPlanet }) {
   const [show, setShow] = useState(false);
@@ -17,7 +18,8 @@ function PlanetesItem({ planete, setSelectedPlanet, setShowPlanet }) {
 
   return (
     <div className="container__planet">
-      <img
+      <motion.img
+        whileHover={{ scale: 1.3, rotate: 5, y: -50 }}
         className="btn-planete"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

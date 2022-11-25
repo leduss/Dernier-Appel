@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { PropTypes } from "prop-types";
 import { Link } from "react-router-dom";
 import PlanetStat from "./PlanetStat";
@@ -11,8 +12,33 @@ function PlanetCard({ selectedPlanet, showPlanet, priceLevel, setShowPlanet }) {
     setShowPlanet(false);
   };
 
+  const variants = {
+    open: {
+      x: 0,
+      rotate: 0,
+      scale: 1,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        repeat: 0,
+        delay: 0,
+        type: "spring",
+        stiffness: 200,
+        damping: 25,
+      },
+    },
+    close: {
+      x: 800,
+      rotate: 20,
+      scale: 0,
+      opacity: 0,
+    },
+  };
   return (
-    <div
+    <motion.div
+      whileHover={{ scale: 1.0, rotate: 0, y: 0 }}
+      variants={variants}
+      animate={showPlanet ? "open" : "close"}
       className="planet__detail__stats__container"
       style={{ display: showPlanet ? "block" : "none" }}
     >
@@ -49,10 +75,14 @@ function PlanetCard({ selectedPlanet, showPlanet, priceLevel, setShowPlanet }) {
       </div>
       <Link to={`/planets/${selectedPlanet.id - 1}`}>
         <div className="go">
-          <img src={bouton} alt="Allons-Y" />
+          <motion.img
+            whileHover={{ scale: 1.2, rotate: -4, y: 0 }}
+            src={bouton}
+            alt="Allons-Y"
+          />
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }
 
