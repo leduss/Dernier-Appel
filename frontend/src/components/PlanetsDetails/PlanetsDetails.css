@@ -60,7 +60,7 @@
   position: fixed;
   width: 8vw;
   top: 80vh;
-  left: 47vw;
+  left: 55vw;
 }
 
 .hidden {
@@ -105,17 +105,21 @@
 
 .priceDetail {
   position: absolute;
-  top: 80vh;
-  left: 30vw;
+  top: 82vh;
+  left: 35vw;
   width: 20vw;
   height: 20vh;
   z-index: 320;
   color: brown;
   font-size: 4rem;
+  font-family: var(--font-title);
+  color: white;
+  text-shadow: 2px 2px 2px #B60100;
 }
 
 .priceSoldOutDetail {
   position: absolute;
+  font-family: var(--font-title);
   top: 78vh;
   left: 30vw;
   width: 20vw;
