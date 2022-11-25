@@ -20,25 +20,28 @@ import Tusken from "../assets/img/planetes/Tatooine/Tusken.png";
 import lv426 from "../assets/img/planetes/LV426/LV-426Plan.png";
 import lv426Paysage01 from "../assets/img/planetes/LV426/lv426Paysage01.png";
 import lv426Paysage02 from "../assets/img/planetes/LV426/LV426Paysage02.png";
-import alien_01 from "../assets/img/planetes/LV426/alien_01.png";
-import yautja from "../assets/img/planetes/yautja/Yautja.png";
-import predator from "../assets/img/planetes/yautja/predator.png";
 import plan01 from "../assets/img/planetes/plan01/plan01.png";
+import plan01Perso from "../assets/img/planetes/plan01/perso06.png";
 import plan01Pays01 from "../assets/img/planetes/plan01/plan01Pays01.jpg";
 import plan01Pays02 from "../assets/img/planetes/plan01/plan01Pays02.jpg";
 import plan02 from "../assets/img/planetes/plan02/plan02.png";
+import plan02Perso from "../assets/img/planetes/plan02/perso03.webp";
 import plan02Pays01 from "../assets/img/planetes/plan02/plan02Pays01.jpg";
 import plan02Pays02 from "../assets/img/planetes/plan02/plan02Pays02.jpg";
 import plan03 from "../assets/img/planetes/plan03/plan03.png";
+import plan03Perso from "../assets/img/planetes/plan03/perso01.webp";
 import plan03Pays01 from "../assets/img/planetes/plan03/plan03Pays01.jpg";
 import plan03Pays02 from "../assets/img/planetes/plan03/plan03Pays02.jpg";
 import plan04 from "../assets/img/planetes/plan04/plan04.png";
+import plan04Perso from "../assets/img/planetes/plan04/perso07.png";
 import plan04Pays01 from "../assets/img/planetes/plan04/plan04Pays01.jpg";
 import plan04Pays02 from "../assets/img/planetes/plan04/plan04Pays02.jpg";
 import plan05 from "../assets/img/planetes/plan05/plan05.png";
+import plan05Perso from "../assets/img/planetes/plan05/perso04.webp";
 import plan05Pays01 from "../assets/img/planetes/plan05/plan05Pays01.jpg";
 import plan05Pays02 from "../assets/img/planetes/plan05/plan05Pays02.png";
 import plan06 from "../assets/img/planetes/plan06/plan06.png";
+import plan06Perso from "../assets/img/planetes/plan06/perso02.webp";
 import plan06Pays01 from "../assets/img/planetes/plan06/plan06Pays01.jpg";
 import plan06Pays02 from "../assets/img/planetes/plan06/plan06Pays02.jpg";
 import alien01 from "../assets/img/planetes/LV426/alien_01.png";
@@ -172,7 +175,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: true,
     soldOut: false,
-    perso: "",
+    perso: plan01Perso,
     photo01: plan01Pays01,
     photo02: plan01Pays02,
     price: 1500,
@@ -192,7 +195,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: false,
     soldOut: true,
-    perso: "",
+    perso: plan02Perso,
     photo01: plan02Pays01,
     photo02: plan02Pays02,
     price: "",
@@ -202,7 +205,7 @@ const Planetes = [
       { category: "Résistance à l'Homme", level: 95 },
       { category: "Habitabilité - Confort", level: 78 },
     ],
-    txt: "Takodana était une planète neutre de la bordure médiane qui avait de nombreux petits lacs et des forets abondantes. D'un diamètre de 12 100 kilomètres, la durée d'une année était de 215 jours. Au niveau de la population, elle comptait moins d'un million d'habitants. Elle disposait d'un soleil mais d'aucune lune. La planète était neutre et abritait un château qui faisait office d'auberge pour les voyageurs du monde entier.  Ce château que Maz dirigeait depuis plus de 1000 ans était gigantesque, avec plusieurs niveaux.",
+    txt: "Beauty sphere était une planète neutre de la bordure médiane qui avait de nombreux petits lacs et des forets abondantes. D'un diamètre de 12 100 kilomètres, la durée d'une année était de 215 jours. Au niveau de la population, elle comptait moins d'un million d'habitants. Elle disposait d'un soleil mais d'aucune lune. La planète était neutre et abritait un château qui faisait office d'auberge pour les voyageurs du monde entier.  Ce château que Maz dirigeait depuis plus de 1000 ans était gigantesque, avec plusieurs niveaux.",
   },
 
   {
@@ -212,7 +215,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: false,
     soldOut: false,
-    perso: "",
+    perso: plan03Perso,
     photo01: plan03Pays01,
     photo02: plan03Pays02,
     price: 200000,
@@ -232,10 +235,10 @@ const Planetes = [
     isHidden: false,
     darkFriday: true,
     soldOut: false,
-    perso: 50000,
+    perso: plan04Perso,
     photo01: plan04Pays01,
     photo02: plan04Pays02,
-    price: "",
+    price: 50000,
     stat: [
       { category: "Places restantes", level: 34 },
       { category: "Danger", level: 68 },
@@ -252,7 +255,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: false,
     soldOut: false,
-    perso: "",
+    perso: plan05Perso,
     photo01: plan05Pays01,
     photo02: plan05Pays02,
     price: 150000,
@@ -272,7 +275,7 @@ const Planetes = [
     isHidden: false,
     darkFriday: false,
     soldOut: true,
-    perso: "",
+    perso: plan06Perso,
     photo01: plan06Pays01,
     photo02: plan06Pays02,
     price: "",
@@ -282,7 +285,7 @@ const Planetes = [
       { category: "Résistance à l'Homme", level: 75 },
       { category: "Habitabilité - Confort", level: 80 },
     ],
-    txt: "Les natifs de Bimmisaari sont les Bimms, une espèce pensante régie par un conseil planètaire indépendant gouvernant au nom de lois ancestrales, qui siège dans un bâtiment relativement modeste, la Tour des Lois, dont l'interet touristique réside dans le fait qu'elle est décorée par des tapisseries narrant leurs histoires favorites, et dont le dernier étage est consacré à une sorte de musée comportant de nombreux objets datant de l'époque de l'Ancienne République. L'autre bâtiment principal de la capitale Bimm est le marché, édifice en forme de dôme composé de trois niveaux différents, dont les flancs ne possédent pas de murs, symbolique de l'esprit Bimm d'ouverture d'esprit; de même le toit est en fait une tenture pouvant se déplier en cas d'intempéries, afin de protéger l'intérieur du bâtiment où sont toujours présents un grand nombre de Bimms. Bimmisaari fut une des premières planète à rejoindre la Refugee Resettlement Coalition, quelques temps avant la guerre des clones, et peu après la défaite impériale d'Endor, elle fut courtisée par la Nouvelle République, qui n'obtint jamais son adhesion. En effet, le fait que la planète soit aussi éloignée du Noyau la relégua toujours à l'arrière plan, la plupart de diplomates la jugeant ininterressante, tant du point de vue politique que stratégique. Cependant, lors de la deuxième vague d'assaut Yuuzhan Vong Bimmisaari fut contrainte de capituler.",
+    txt: "Les natifs de Lina-S sont les Bimms, une espèce pensante régie par un conseil planètaire indépendant gouvernant au nom de lois ancestrales, qui siège dans un bâtiment relativement modeste, la Tour des Lois, dont l'interet touristique réside dans le fait qu'elle est décorée par des tapisseries narrant leurs histoires favorites, et dont le dernier étage est consacré à une sorte de musée comportant de nombreux objets datant de l'époque de l'Ancienne République. L'autre bâtiment principal de la capitale Bimm est le marché, édifice en forme de dôme composé de trois niveaux différents, dont les flancs ne possédent pas de murs, symbolique de l'esprit Bimm d'ouverture d'esprit; de même le toit est en fait une tenture pouvant se déplier en cas d'intempéries, afin de protéger l'intérieur du bâtiment où sont toujours présents un grand nombre de Bimms. Bimmisaari fut une des premières planète à rejoindre la Refugee Resettlement Coalition, quelques temps avant la guerre des clones, et peu après la défaite impériale d'Endor, elle fut courtisée par la Nouvelle République, qui n'obtint jamais son adhesion. En effet, le fait que la planète soit aussi éloignée du Noyau la relégua toujours à l'arrière plan, la plupart de diplomates la jugeant ininterressante, tant du point de vue politique que stratégique. Cependant, lors de la deuxième vague d'assaut Yuuzhan Vong Bimmisaari fut contrainte de capituler.",
   },
 ];
 
