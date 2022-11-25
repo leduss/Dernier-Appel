@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PropTypes } from "prop-types";
 import "./Chrono.css";
+import { motion } from "framer-motion";
 
 function Chrono({ setPriceLevel, priceLevel, population, setPopulation }) {
   const [seconds, setSeconds] = useState(0);
@@ -35,10 +36,21 @@ function Chrono({ setPriceLevel, priceLevel, population, setPopulation }) {
   return (
     <div className="container__chrono">
       <h1 className="title__chrono">Dernier départ</h1>
-      <h2 className="chrono">
+      <motion.h2
+        whileHover={{ scale: 1.3, rotate: 5, y: -50 }}
+        transition={{
+          duration: 0,
+          type: "spring",
+          stiffness: 50,
+          delay: 2,
+        }}
+        initial={{ x: 0, y: 100, scale: 1 }}
+        animate={{ x: 0, y: 0, scale: 1 }}
+        className="chrono"
+      >
         {hours < 10 ? hours : hours}:{minutes < 10 ? minutes : minutes}:
         {seconds < 10 ? seconds : seconds}
-      </h2>
+      </motion.h2>
     </div>
   );
 }

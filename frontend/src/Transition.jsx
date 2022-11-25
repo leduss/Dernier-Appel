@@ -4,6 +4,7 @@ import { PropTypes } from "prop-types";
 import Error from "./Error";
 import Home from "./Home";
 import PlanetsDetails from "./components/PlanetsDetails/PlanetsDetails";
+import Empreinte from "./components/empreinte/Empreinte";
 
 function Transition({ priceLevel, setPriceLevel, population }) {
   return (
@@ -23,6 +24,7 @@ function Transition({ priceLevel, setPriceLevel, population }) {
         element={<PlanetsDetails priceLevel={priceLevel} />}
       />
       <Route path="*" element={<Error />} />
+      <Route path="/empreinte" element={<Empreinte />} />
     </Routes>
   );
 }
