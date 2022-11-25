@@ -12,48 +12,89 @@
 
 .sidePlanet {
   position: fixed;
-  top: 8vh;
-  left: -25vw;
-  width: 40vw;
+  top: 12vh;
+  left: -27vw;
+  width: 50vw;
 }
-
 
 .autochtone {
   position: fixed;
   z-index: 20;
   top: 8vh;
-  width: 20vw;
-  left: 75vw;
+  width: 17vw;
+  left: 78vw;
+}
+#perso_Dagobah{
+ top: 26vh;
+ width: 20vw;
+ left: 78vw;
+}
+#perso_Pandora {
+  top: 15vh;
+  width: 16vw;
+  left: 78vw;
+}
+#perso_Tatooine {
+  top: 19vh;
+  width: 18vw;
+  left: 78vw;
+}
+#perso_LV-426 {
+  top: 19vh;
+  width: 18vw;
+  left: 78vw;
+}
+#perso_Fallen {
+  top: 15vh;
+  width: 16vw;
+  left: 78vw;
 }
 
 .PlanetDetailButtonClose {
   position: fixed;
   left: 92vw;
+  top: 5vh;
 }
 
 .PlanetDetailBuyButton {
   position: fixed;
-  top: 75vh;
+  width: 8vw;
+  top: 80vh;
   left: 47vw;
 }
 
 .schrollPlanet {
   position: absolute;
-  top: 10vh;
+  padding: 0 5% 10% 5%;
+  top: 8vh;
   display: flex;
   justify-content: center;
-  left: 25vw;
-  width: 50vw;
-  height: 60vh;
+  left: 21vw;
+  width: 60vw;
+  height: 70vh;
   overflow-y: scroll;
+  
 }
 
 .PlanetsDetailsPicture {
-  width: 20vw;
-  height: 20vh;
+  width: 22vw;
+  height: 22vh;
   margin-left: 2vw;
 }
 
 .text {
+  
   font-size: xx-large;
+  font-family: var(--font-paragraphe);
+  color: white;
+  text-align: justify;
+  margin: 5% 0 5% 0;
+}
+
+.planetDescription h1{
+  color: white;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  text-align: center;
+  margin: 2% 0 5% 0;
 }
