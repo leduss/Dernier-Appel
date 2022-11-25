@@ -1,15 +1,18 @@
-import dagoba from "../assets/img/planetes/dagoba/dagoba_planete.png";
+import dagobah from "../assets/img/planetes/dagoba/dagoba_planete.png";
 import etoilenoire from "../assets/img/planetes/Etoile_noire/etoile_noire_planete.png";
 import miller from "../assets/img/planetes/miller/miller_planete.png";
 import pandora from "../assets/img/planetes/Pandora/pandora_planete.png";
 import tatooine from "../assets/img/planetes/Tatooine/tatooine_planete.png";
+import grogu from "../assets/img/planetes/dagoba/grogu.png";
 
 const Planetes = [
   {
-    id: 1,
-    planetName: "Dagoba",
-    img: dagoba,
-    isHidden: false,
+    dagoba: {
+      planetName: "Dagobah",
+      img: dagobah,
+      isHidden: false,
+      perso: grogu,
+    },
   },
   {
     id: 2,
