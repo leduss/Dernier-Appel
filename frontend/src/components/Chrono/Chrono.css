@@ -7,6 +7,7 @@
   top: 85vh;
   left: 80vw;
   position: fixed;
+  z-index: 20;
 }
 
 .title__chrono {
@@ -16,6 +17,7 @@
 }
 
 .chrono {
+  cursor: default;
   font-size: 8vmin;
   color: rgb(159, 16, 16);
   font-family: var(--font-chrono);

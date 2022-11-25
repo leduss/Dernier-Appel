@@ -1,6 +1,6 @@
 .planet__detail__stats__container {
   position: fixed;
-  top: 5vh;
+  top: 15vh;
   left: 70vw;
   background-image: url("../../assets/img/cartes/card.png");
   background-size: 100% 100%;
@@ -46,8 +46,10 @@
 }
 
 .priceSoldOut {
-  color: red;
-  animation: blink infinite 1s linear;
+  color: rgb(188, 4, 4);
+  animation: blink infinite 2s linear;
+  text-shadow: 3px 3px 5px rgb(74, 74, 74);
+  font-weight: bold;
 }
 
 @keyframes blink {
@@ -69,6 +71,6 @@
 }
 
 .go img {
-  width: 15vmin;
+  width: 10vmin;
   border: none;
 }
