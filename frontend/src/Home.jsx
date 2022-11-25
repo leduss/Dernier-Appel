@@ -9,7 +9,7 @@ import Nav from "./components/Nav/Nav";
 
 function Home({ priceLevel, setPriceLevel }) {
   const [selectedPlanet, setSelectedPlanet] = useState("");
-  const [showPlanet, setShowPlanet] = useState(!true);
+  const [showPlanet, setShowPlanet] = useState(false);
 
   return (
     <div>
@@ -23,6 +23,7 @@ function Home({ priceLevel, setPriceLevel }) {
       <PlanetCard
         selectedPlanet={selectedPlanet}
         showPlanet={showPlanet}
+        setShowPlanet={setShowPlanet}
         priceLevel={priceLevel}
         setPriceLevel={setPriceLevel}
       />
