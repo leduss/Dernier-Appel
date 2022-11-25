@@ -3,9 +3,12 @@ import { PropTypes } from "prop-types";
 import PlanetStat from "./PlanetStat";
 import "./PlanetCard.css";
 
-function PlanetCard({ selectedPlanet }) {
+function PlanetCard({ selectedPlanet, showPlanet }) {
   return (
-    <div className="planet__detail__stats__container">
+    <div
+      className="planet__detail__stats__container"
+      style={{ display: showPlanet ? "block" : "none" }}
+    >
       <p className="title">{selectedPlanet.planetName}</p>
       <div className="planet__details">
         <img src={selectedPlanet.img} alt={selectedPlanet.planetName} />
@@ -24,6 +27,7 @@ function PlanetCard({ selectedPlanet }) {
 
 PlanetCard.propTypes = {
   selectedPlanet: PropTypes.func.isRequired,
+  showPlanet: PropTypes.bool.isRequired,
 };
 
 export default PlanetCard;

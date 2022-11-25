@@ -3,7 +3,7 @@ import Planetes from "../../tools/Planetes";
 import PlanetesItem from "./PlanetesItem";
 import "./SlidePlanetes.css";
 
-function SlidePlanetes({ setSelectedPlanet }) {
+function SlidePlanetes({ setSelectedPlanet, setShowPlanet, showPlanet }) {
   return (
     <ul className="planete">
       {Planetes.map((planete) => (
@@ -11,6 +11,8 @@ function SlidePlanetes({ setSelectedPlanet }) {
           <PlanetesItem
             planete={planete}
             setSelectedPlanet={setSelectedPlanet}
+            setShowPlanet={setShowPlanet}
+            showPlanet={showPlanet}
           />
         </li>
       ))}
@@ -19,6 +21,8 @@ function SlidePlanetes({ setSelectedPlanet }) {
 }
 SlidePlanetes.propTypes = {
   setSelectedPlanet: PropTypes.func.isRequired,
+  setShowPlanet: PropTypes.func.isRequired,
+  showPlanet: PropTypes.func.isRequired,
 };
 
 export default SlidePlanetes;
