@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import BgPicture from "./BgPicture";
 import SidePlanet from "./SidePlanet";
@@ -8,8 +9,9 @@ import Autochtone from "./Autochtone";
 import BuyButton from "./BuyButton";
 import Planetes from "../../tools/Planetes";
 import "./PlanetsDetails.css";
+import PriceLevel from "./PriceLevel";
 
-function PlanetsDetails() {
+function PlanetsDetails({ priceLevel }) {
   const { id } = useParams();
 
   return (
@@ -19,14 +21,19 @@ function PlanetsDetails() {
       <Link to="/">
         <ClosePlanetsButton />
       </Link>
-      <PlanetsTextDetails planete={Planetes[id]} />
+      <PlanetsTextDetails planete={Planetes[id]} priceLevel={priceLevel} />
       <Autochtone
         planetName={Planetes[id].planetName}
         perso={Planetes[id].perso}
       />
-      <BuyButton />
+      <PriceLevel price={Planetes[id].price} priceLevel={priceLevel} />
+      <BuyButton price={Planetes[id].price} />
     </div>
   );
 }
+
+PlanetsDetails.propTypes = {
+  priceLevel: PropTypes.string.isRequired,
+};
 
 export default PlanetsDetails;
